@@ -73,7 +73,14 @@
 
 为了给读者参考列举出相应的文档对应的参考书或者参考网站，所对应的参考书也可能不是最适合的书籍，希望读者能多去选择。谢谢。  
 下列资源有些是我从网上获取，有些是我自己购买，如有侵权请联系我删除。
+以下的列表如果有中文名就按中文名排序，如果没有就按照英文名排序。英文在前，大写在前。
+
+## L
+
++ [利用Python进行数据分析_Wes McKinney](https://pan.baidu.com/s/16d4IfG3hDJTNeyUjchaS3g&shfl=sharepset)&emsp;提取码：dn9p。
 
 ## J
+
++ [JavaScript高级程序设计_Nicholas C.Zakas](https://pan.baidu.com/s/1E5OPMC8fJIrWu_ms7gMyVw&shfl=sharepset)&emsp;提取码：fns4h。
 
 + [机器学习_周志华](https://pan.baidu.com/s/1kKRTwbR7LVk6C7nh4_QnUw&shfl=sharepset)&emsp;提取码：f29x。
