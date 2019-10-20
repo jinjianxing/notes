@@ -88,7 +88,7 @@ $\color{yellowgreen}{要点}$：
 
 ---
 
-## [回到目录](#目录) &emsp; &emsp;[查询更多](https://github.com/jinjianxing/notebooks)
+## [回到目录](#目录) &emsp; &emsp;[查询更多](https://github.com/Didnelpsun/notes)
 
 ### 参考
 
