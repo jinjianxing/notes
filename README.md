@@ -83,4 +83,6 @@
 
 + [JavaScript高级程序设计_Nicholas C.Zakas](https://pan.baidu.com/s/1E5OPMC8fJIrWu_ms7gMyVw&shfl=sharepset)&emsp;提取码：ns4h。
 
++ [JavaScript权威指南_David Flanagan](https://pan.baidu.com/s/1GkPSv_y0DqwVaHbbx0dTqA&shfl=sharepset)&emsp;提取码：jyvz。
+
 + [机器学习_周志华](https://pan.baidu.com/s/1kKRTwbR7LVk6C7nh4_QnUw&shfl=sharepset)&emsp;提取码：f29x。
