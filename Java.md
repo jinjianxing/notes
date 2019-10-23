@@ -8,9 +8,11 @@
 
 ## 第二章[Java基础语法](#第二章-java基础语法)
 
-### &emsp;[]()
+### &emsp;2.1[Java主类](#21-java主类)
 
-#### &emsp;&emsp;[]()
+### &emsp;2.2[数据类型](#22-数据类型)
+
+#### &emsp;&emsp;2.2.1[整数类型](#221-整数类型)
 
 ## 第三章[流程控制](#第三章-流程控制)
 
@@ -36,89 +38,58 @@
 
 ## [第一章 Java配置安装与运行](#第一章java配置安装与运行)
 
+$\color{yellowgreen}{JRE}$： Java Runtime Environment JRE顾名思义是java运行时环境，包含了java虚拟机，java基础类库。是使用java语言编写的程序运行所需要的软件环境，是提供给想运行java程序的用户使用的。   
+$\color{yellowgreen}{JDK}$：Java Development Kit JDK顾名思义是java开发工具包，是程序员使用java语言编写java程序所需的开发工具包，是提供给程序员使用的。JDK包含了JRE，同时还包含了编译java源码的编译器javac，还包含了很多java程序调试和分析的工具：jconsole，jvisualvm等工具软件，还包含了java程序编写所需的文档和demo例子程序。如果你需要运行java程序，只需安装JRE就可以了。如果你需要编写java程序，需要安装JDK。  
+
+首先注意类名与文件名保持一致，到目标java文件的目录下，打开cmd窗口。然后输入javac 文件名.java，如果编译成class格式文件成功就接着输入java 类名。  
+
+$\color{yellowgreen}{源文件名}$：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
+
 &emsp;  
 
 ## [第二章 Java基础语法](#第二章java基础语法)
 
-### 
+### [2.1 Java主类](#21java主类)
 
-#### 
-
-&emsp;  
-
-## [第三章 流程控制]()
-
-&emsp;  
-
-## [第四章 类与对象]()
-
-&emsp;  
-
-## [第五章 包装类]()
-
-&emsp;  
-
-## [第六章 字符串（String类）]()
-
-&emsp;  
-
-## [第七章 数组（Arrays类）]()
-
-&emsp;  
-
-## [第八章 数字处理类]()
-
-&emsp;  
-
-## [第九章 类处理]()
-
-&emsp;  
-
-正文
-
-第一章Java配置安装与运行
-JRE： Java Runtime Environment JRE顾名思义是java运行时环境，包含了java虚拟机，java基础类库。是使用java语言编写的程序运行所需要的软件环境，是提供给想运行java程序的用户使用的。
-JDK：Java Development Kit JDK顾名思义是java开发工具包，是程序员使用java语言编写java程序所需的开发工具包，是提供给程序员使用的。JDK包含了JRE，同时还包含了编译java源码的编译器javac，还包含了很多java程序调试和分析的工具：jconsole，jvisualvm等工具软件，还包含了java程序编写所需的文档和demo例子程序。如果你需要运行java程序，只需安装JRE就可以了。如果你需要编写java程序，需要安装JDK。
-
-首先注意类名与文件名保持一致，到目标java文件的目录下，打开cmd窗口。然后输入javac 文件名.java，如果编译成class格式文件成功就接着输入java 类名。
-
-源文件名：源文件名必须和类名相同。当保存文件的时候，你应该使用类名作为文件名保存（切记 Java 是大小写敏感的），文件名的后缀为 .java。（如果文件名和类名不相同则会导致编译错误）。
-
-第二章 Java基础语法
-2.1 Java主类
 一个 Java 程序可以认为是一系列对象的集合，而这些对象通过调用彼此的方法来协同工作。
 
-每一个应用程序都必须包含一个main()方法，含有main()方法的类一般为主类。public static void main(String[] args)方法是程序开始执行的位置。
+每一个应用程序都必须包含一个`main()`方法，含有`main()`方法的类一般为主类。`public static void main(String[] args)`方法是程序开始执行的位置。
 
-主类可以含有main()方法，不是必要条件，充要条件是带有public关键字，仅有主类可以带有public关键字，且main()方法必须声明为public static void。public关键字是权限修饰符。
+主类可以含有`main()`方法，不是必要条件，充要条件是带有`public`关键字，仅有主类可以带有`public`关键字，且`main()`方法必须声明为`public static void`。`public`关键字是权限修饰符。
 
-static是静态修饰符。知编译器main函数是一个静态函数。也就是说main函数中的代码是存储在静态存储区的，即当定义了类以后这段代码就已经存在了。如果main()方法没有使用static修饰符，那么编译不会出错，但是如果你试图执行该程序将会报错，提示main()方法不存在。因为包含main()的类并没有实例化（即没有这个类的对象），所以其main()方法也不会存。而使用static修饰符则表示该方法是静态的，不需要实例化即可使用。
+`static`是静态修饰符。知编译器`main()`函数是一个静态函数。也就是说main函数中的代码是存储在静态存储区的，即当定义了类以后这段代码就已经存在了。如果`main()方法`没有使用`static`修饰符，那么编译不会出错，但是如果你试图执行该程序将会报错，提示`main()`方法不存在。因为包含`main()`的类并没有实例化（即没有这个类的对象），所以其`main()`方法也不会存。而使用`static`修饰符则表示该方法是静态的，不需要实例化即可使用。
 
-void是返回值修饰符。表名主函数一般返回值是无类型。
+`void`是返回值修饰符。表名主函数一般返回值是无类型。
 
-String[]args是一个字符串类型的数组，是main()函数的参数。如C语言的主函数main()，虽然其中并没有传入参数，但是实际上操作系统代我们给主函数已经传入了字符串数组类型的参数。Java是显式地传入参数，并转为字符串类型。args就是参数英文的首字母。名字并不重要。
+`String[]args`是一个字符串类型的数组，是`main()`函数的参数。如C语言的主函数`main()`，虽然其中并没有传入参数，但是实际上操作系统代我们给主函数已经传入了字符串数组类型的参数。Java是显式地传入参数，并转为字符串类型。args就是参数英文的首字母。名字并不重要。
 
-主函数可以被重载，但是JVM只识别main（String[] args），其他都是作为一般函数。这里面的args知识数组变量可以更改，其他都不能更改。
+主函数可以被重载，但是JVM只识别`main（String[] args）`，其他都是作为一般函数。这里面的args参数数组变量可以更改，其他都不能更改。
 一个java文件中可以包含很多个类，每个类中有且仅有一个主函数，但是每个java文件中可以包含多个主函数，在运行时，需要指定JVM入口是哪个。当如一个类的主函数可以调用另一个类的主函数。
+
+```java
 public class Main { //定义主类Main
-	public static void main(String[] args) //定义主函数，并定义传入参数的字符串的形参
-	{
-	for(int i=0;i <args.length;i++)
-	System.out.println(args[i]); //在主函数定义本身，功能是打印传入参数
-	}
+    public static void main(String[] args) //定义主函数，并定义传入参数的字符串的形参
+    {
+    for(int i=0;i <args.length;i++)
+    System.out.println(args[i]); //在主函数定义本身，功能是打印传入参数
+    }
 }
 public class B { //定义B类
-	public static void main(String[] args) //在B类中定义主函数
+    public static void main(String[] args) //在B类中定义主函数
 {
 Main c = new Main(); //实例Main的实例c
-	String[] b = {"111","222","333"};
-	c.main(b); //调用c的main方法。
-	}
+    String[] b = {"111","222","333"};
+    c.main(b); //调用c的main方法。
+    }
 }
+```
+
 由于Main类主函数为静态函数，也可以不用实例化，直接在B类中调用。
 
-一个程序仅有主类可以带有public关键字，
-成员中的方法可以带有public关键字代表共有的方法。如：Main.java
+一个程序仅有主类可以带有`public`关键字，
+成员中的方法可以带有`public`关键字代表共有的方法。如：Main.java
+
+```java
 public class Main{
     static String s1 ="hello";
     public static void main(String[]args){
@@ -127,15 +98,63 @@ public class Main{
         System.out.println(s2);
     }
 }
+```
 
-2.2数据类型
+### [2.2 数据类型](#22数据类型)
+
 Java一共有八种基本类型：数值型：byte、short、int、long、float、double和字符型与布尔型。
-2.2.1整数类型
+
+#### &emsp;[2.2.1 整数类型](#221整数类型)
+
 Java可以用三种形式表示整形数据；十进制、八进制和十六进制。十进制正常表示，八进制前面以0开头，十六进制以0X或者0x开头。
 整型数据根据长度不同分为2^8长度的byte，2^16的short，2^32的int，2^64的long。
 对于long型值，当赋给值超过int类型的范围时，则需要在数字后加L或者l，表示该数值为长整型，如：long num = 2147483650L。
 
-2.2.2浮点类型
+#### &emsp;[2.2.2 浮点类型](#221整数类型)
+
+#### &emsp;[2.2.1 整数类型](#221整数类型)
+#### &emsp;[2.2.1 整数类型](#221整数类型)
+#### &emsp;[2.2.1 整数类型](#221整数类型)
+#### &emsp;[2.2.1 整数类型](#221整数类型)
+#### &emsp;[2.2.1 整数类型](#221整数类型)
+
+
+
+&emsp;  
+
+## [第三章 流程控制](#第三章流程控制)
+
+&emsp;  
+
+## [第四章 类与对象](#第四章类与对象)
+
+&emsp;  
+
+## [第五章 包装类](#第五章包装类)
+
+&emsp;  
+
+## [第六章 字符串（String类）](#第六章字符串string类)
+
+&emsp;  
+
+## [第七章 数组（Arrays类）](#第七章数组arrays类)
+
+&emsp;  
+
+## [第八章 数字处理类](#第八章数字处理类)
+
+&emsp;  
+
+## [第九章 类处理](#第九章类处理)
+
+&emsp;  
+
+
+
+
+
+
 Java中有float单精度浮点数和double双精度浮点数，分别占32,64位，与C语言类似，小数都被默认为双精度类型，但是与C不同的是，如果使用单精度浮点数类型，需要在小数最后添加F或者f，是必须的，可以在double类型的浮点数后加D或者d，也可以不加。
 如：float f1 = 13.34f;
 double d1 = 2345.35343d;
