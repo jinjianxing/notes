@@ -67,7 +67,9 @@
 
 13. 文档最后需要以三级标题写上参考，并表明参考书籍或网站等相关资源。参考资源最开始为书名或者视频名等，别名或者英文名以/分隔，中文放在最前面，作者需要以-来连接，如果有译者以圆括号括起来。再加版号，用-<连接，一般是数字。书名作者名版号之间都没有空格。如果是网站资源直接在网站资源名上添加链接。
 
-14. 使用\$\color{green}}{行内关键字}$来表示 $\color{green}{行内关键字}$，使用\$\color{yellowgreen}}{标题关键字}$来表示 $\color{yellowgreen}{标题关键字}$，使用\$\color{yellow}}{提示：}$来表示 $\color{yellow}{提示：}$，使用\$\color{orange}{注意：}$来表示 $\color{orange}{注意：}$，使用\$\color{red}}{警告：}$来表示 $\color{red}{警告：}$。
+14. 使用\$\color{purple}{例子}$来表示 $\color{purple}{例子}$， 使用\$\color{aqua}}{格式}$来表示 $\color{aqua}{格式}$，使用\$\color{green}}{行内关键字}$来表示 $\color{green}{行内关键字}$，使用\$\color{yellowgreen}}{标题关键字}$来表示 $\color{yellowgreen}{标题关键字}$，使用\$\color{yellow}}{提示：}$来表示 $\color{yellow}{提示：}$，使用\$\color{orange}{注意：}$来表示 $\color{orange}{注意：}$，使用\$\color{red}}{警告：}$来表示 $\color{red}{警告：}$。
+
+15. 文档中需要将编程语言的关键字和片段或者函数方法用``来括起来。格式中不需要将关键字作为代码片段来括起来。
 
 ## 参考书
 
