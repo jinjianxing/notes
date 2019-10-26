@@ -1652,6 +1652,9 @@ return new InnerClass("doit");
 
 #### &emsp;[9.11.3 匿名内部类](#9113匿名内部类)
 
+图片：
+![avatar](https://i.ibb.co/82DzxRK/18.png)
+
 &emsp;  
 
 <!--
