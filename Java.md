@@ -178,13 +178,57 @@
 
 #### &emsp;&emsp;6.4.1[获取字符串长度（length()）](#641-获取字符串长度（length()）)
 
+#### &emsp;&emsp;6.4.2[字符串查找（indexOf()、lastIndexOf()）](#642-字符串查找（indexOf()、lastIndexOf()）)
+
+#### &emsp;&emsp;6.4.3[获取指定索引位置的字符（charAt()）](#643-获取指定索引位置的字符（charAt()）)
+
+### &emsp;6.5[字符串操作](#65-字符串操作)
+
+#### &emsp;&emsp;6.5.1[截取字符串（substring()）](#651-截取字符串（substring()）)
+
+#### &emsp;&emsp;6.5.2[去除空格（trim()）](#652-去除空格（trim()）)
+
+#### &emsp;&emsp;6.5.3[替换字符串（replace()）](#653-替换字符串（replace()）)
+
+#### &emsp;&emsp;6.5.4[判断字符串开始结尾（startsWith()、endsWith()）](#654-判断字符串开始结尾（startsWith()、endsWith()）)
+
+#### &emsp;&emsp;6.5.5[判断字符串是否相等（equals()、equalslgnoreCase()）](#655-判断字符串是否相等（equals()、equalslgnoreCase()）)
+
+#### &emsp;&emsp;6.5.6[判断字符串顺序（compareTo()）](#656-判断字符串顺序（compareTo()）)
+
+#### &emsp;&emsp;6.5.7[大小写转换（toLowerCase()、toUpperCase()）](#657-大小写转换（toLowerCase()、toUpperCase()）)
+
+#### &emsp;&emsp;6.5.8[分割字符串（split()）](#658-分割字符串（split()）)
+
+### &emsp;6.6[字符串生成器（String-Builder类）](#66-字符串生成器（String-Builder类）)
+
+#### &emsp;&emsp;6.6.1[append()](#661-append)
+
+#### &emsp;&emsp;6.6.2[insert()](#662-insert)
+
+#### &emsp;&emsp;6.6.3[delete()](#663-delete)
+
+#### &emsp;&emsp;6.6.4[toString()](#664-toString)
+
+### &emsp;6.7[日期](#67-日期)
+
+#### &emsp;&emsp;6.7.1[Date类](#671-Date类)
+
+#### &emsp;&emsp;6.7.2[Calendar类](#672-Calendar类)
+
+##### &emsp;&emsp;&emsp;6.7.2.1[说明](#6721-说明)
+
+##### &emsp;&emsp;&emsp;6.7.2.2[内部类向上转型为接口](#6722-内部类向上转型为接口)
+
+#### &emsp;&emsp;6.6.2[insert()](#662-insert())
+
 ## 第七章[数组（Arrays类）](#第七章-数组arrays类)
 
 ## 第八章[数字处理类](#第八章-数字处理类)
 
 ## 第九章[类处理](#第九章-类处理)
 
-### &emsp;9.1[继承](#91-继承)
+### &emsp;9.3[继承](#93-继承)
 
 #### &emsp;&emsp;9.1.1[extends和super关键字](#911-extends和super关键字)
 
@@ -1090,8 +1134,8 @@ Java中字符串以`String`类的实例来处理。可以通过`java.lang`包中
 
 ### [6.1 声明](#61声明)
 
-字符串必须在双引号中，如："你好"，"a"
-声明格式：String 字符串变量名;
+字符串必须在双引号中，如："你好"，"a"  
+$\color{aqua}{格式}$：String 字符串变量名;  
 字符串必须声明才能使用，如果最开始不知道其值，可以赋为空字符串。
 
 ### [6.2 创建与赋值](#62创建与赋值)
@@ -1149,171 +1193,195 @@ $\color{aqua}{格式}$：字符串变量名.length();
 
 #### &emsp;[6.4.2 字符串查找（indexOf()、lastIndexOf()）](#642字符串查找（indexOf()、lastIndexOf()）)
 
-### [5.6 Number类](#56Number类)
+$\color{aqua}{格式}$：目标字符串.indexOf(搜索字符串)  
+返回搜索的字符或字符串首次出现的位置。如果没有搜索到就返回-1。  
 
-<!--
+$\color{aqua}{格式}$：目标字符串.lastIndexOf(搜索字符串)  
+返回搜索的字符或字符串最后一次出现的位置。如果没有搜索到就返回-1。  
+如果搜索字符串是空字符串，那么返回就是字符串长度。  
 
+#### &emsp;[6.4.3 获取指定索引位置的字符（charAt()）](#643获取指定索引位置的字符（charAt()）)
 
+$\color{aqua}{格式}$：目标字符串.charAt(索引值);
 
-6.4.2.1 indexOf()
-目标字符串.indexOf(搜索字符串)
-返回搜索的字符或字符串首次出现的位置。如果没有搜索到就返回-1。
+### [6.5 字符串操作](#65字符串操作)
 
-6.4.2.2 lastIndexOf()
-目标字符串.lastIndexOf(搜索字符串)
-返回搜索的字符或字符串最后一次出现的位置。如果没有搜索到就返回-1。
-如果搜索字符串是空字符串，那么返回就是字符串长度。
+#### &emsp;[6.5.1 截取字符串（substring()）](#651截取字符串（substring()）)
 
-6.4.3获取指定索引位置的字符（charAt()）
-格式：目标字符串.charAt(索引值);
+$\color{aqua}{格式}$：目标.substring(开始截取索引值)  
+返回从指定的索引值开始截取到结尾的子串。  
+注意字符串中空格占一个索引位置。  
 
-6.5字符串操作
-6.5.1截取字符串（substring()）
-格式：目标.substring(开始截取索引值)
-返回从指定的索引值开始截取到结尾的子串。
-注意字符串中空格占一个索引位置。
-
-格式：目标.substring(开始截取索引值,结束索引值)
+$\color{aqua}{格式}$：目标.substring(开始截取索引值,结束索引值)  
 返回从指定的索引值开始截取到结束位置的子串。
 
-6.5.2去除空格（trim()）
-格式：目标字符串.trim()
-返回字符串的副本，忽略前导空格和尾部空格。
+#### &emsp;[6.5.2 去除空格（trim()）](#652去除空格（trim()）)
 
-6.5.3替换字符串（replace()）
-格式：目标字符串.replace(要替换的字符或字符串,用于替换原来字符串的内容)
-返回的是一个新字符串，如果要替换的字符或字符串没有出现在目标字符串中，那返回原字符串。
+$\color{aqua}{格式}$：目标字符串.trim()  
+返回字符串的副本，忽略前导空格和尾部空格。  
+
+#### &emsp;[6.5.3 替换字符串（replace()）](#653替换字符串（replace()）)
+
+$\color{aqua}{格式}$：目标字符串.replace(要替换的字符或字符串,用于替换原来字符串的内容)  
+返回的是一个新字符串，如果要替换的字符或字符串没有出现在目标字符串中，那返回原字符串。  
 且替换是全局替换。
 
-6.5.4判断字符串开始结尾（startsWith()、endsWith()）
-这两个方法是判断字符串是否以指定的内容开始或者结束，其返回值为boolean值。
-startsWith()判断当前字符串对象的前缀是否为参数指定的字符串。
-格式：目标字符串.startsWith(前缀字符)
-endsWith()判断当前字符串对象是否以参数指定的字符串结束。
-格式：目标字符串.endsWith(后缀字符)
-如：
-String s1 = new String("24533");
-boolean b = s1.startsWith("24");
+#### &emsp;[6.5.4 判断字符串开始结尾（startsWith()、endsWith()）](#654判断字符串开始结尾（startsWith()、endsWith()）)
 
-6.5.5判断字符串是否相等（equals()、equalslgnoreCase()）
-对于字符串对象不能简单地使用==来比较，因为这样比较的是两个对象的地址，而这两个对象如果是不一样的，对象的地址是不同的。所以即使他们的值相等，那么返回的仍然是false。
-格式：目标字符串1.equals(目标字符串2)
-如果字符串具有相同的字符或者长度，就返回true。
+这两个方法是判断字符串是否以指定的内容开始或者结束，其返回值为`boolean`值。  
+`startsWith()`判断当前字符串对象的前缀是否为参数指定的字符串。  
+$\color{aqua}{格式}$：目标字符串.startsWith(前缀字符)  
+endsWith()判断当前字符串对象是否以参数指定的字符串结束。  
+$\color{aqua}{格式}$：目标字符串.endsWith(后缀字符)  
+如：  
 
-格式：目标字符串1.equalsIgnoreCase(目标字符串2)
-如果字符串具有相同的字符或者长度，就返回true。但是字符串不区分大小写。
+```java
+String s1 = new String("24533");  
+boolean b = s1.startsWith("24");  
+```
 
-6.5.6判断字符串顺序（compareTo()）
-格式：目标字符串1.compareTo(目标字符串2)
+#### &emsp;[6.5.5 判断字符串是否相等（equals()、equalslgnoreCase()）](#655判断字符串是否相等（equals()、equalslgnoreCase()）)
+
+对于字符串对象不能简单地使用==来比较，因为这样比较的是两个对象的地址，而这两个对象如果是不一样的，对象的地址是不同的。所以即使他们的值相等，那么返回的仍然是`false`。  
+$\color{aqua}{格式}$：目标字符串1.equals(目标字符串2)  
+如果字符串具有相同的字符或者长度，就返回`true`。  
+
+$\color{aqua}{格式}$：目标字符串1.equalsIgnoreCase(目标字符串2)  
+如果字符串具有相同的字符或者长度，就返回`true`。但是字符串不区分大小写。  
+
+#### &emsp;[6.5.6 判断字符串顺序（compareTo()）](#656判断字符串顺序（compareTo()）)
+
+$\color{aqua}{格式}$：目标字符串1.compareTo(目标字符串2)  
 按字典顺序比较两个字符串，基于每个字符的Unicode值，如果目标字符串1位于目标字符串2前面，就返回一个负整数，若是在后面，就返回一个正整数，如果相等就返回0。
 
-6.5.7大小写转换（toLowerCase()、toUpperCase()）
-格式：目标字符串.toLowerCase()
-全部字母转为小写。
-格式：目标字符串.toUpperCase()
-全部字母转为大写。
-大小写转换时数字与非字符不受影响。
+#### &emsp;[6.5.7 大小写转换（toLowerCase()、toUpperCase()）](#657大小写转换（toLowerCase()、toUpperCase()）)
 
-6.5.8分割字符串（split()）
-格式：目标字符串.split(分隔符号或者正则表达式)
+$\color{aqua}{格式}$：目标字符串.toLowerCase()  
+全部字母转为小写。  
+$\color{aqua}{格式}$：目标字符串.toUpperCase()  
+全部字母转为大写。  
+大小写转换时数字与非字符不受影响。  
+
+#### &emsp;[6.5.8 分割字符串（split()）](#658分割字符串（split()）)
+
+$\color{aqua}{格式}$：目标字符串.split(分隔符号或者正则表达式)  
 如果有多高分隔符，可使用|隔开分割符。
 
-格式：目标字符串.split(分隔符号或者正则表达式,切割限定次数)
+$\color{aqua}{格式}$：目标字符串.split(分隔符号或者正则表达式,切割限定次数)
 
+```java
 String str2="a&b&c";
 String strs[]=str2.split("&");
    for(String str:strs){
 System.out.println(str);
-} 
+}
 不会输出a,b,c,只有这样处理才可以：
 String str2="a&b&c";
 String strs[]=str2.split("\\u0024");
    for(String str:strs){
 System.out.println(str);
 }  
-1、如果用“.”作为分隔的话，必须是如下写法：String.split("\\."),这样才能正确的分隔开，不能用String.split(".");
-2、如果用“|”作为分隔的话，必须是如下写法：String.split("\\|"),这样才能正确的分隔开，不能用String.split("|");
-“.”和“|”都是转义字符，必须得加"\\";
+```
 
-6.6字符串生成器（String-Builder类）
-创建成功的字符串对象，长度是固定的，内容无法被改变，虽然使用+可以增长字符串，但是其实是返回一个新的String对象。如果是重复修改字符串会大量占用系统内存，所以增加了字符序列String-Builder类。该类在java.lang.StringBuilder的API。
-格式：
+1. 如果用“.”作为分隔的话，必须是如下写法：`String.split("\\.")`,这样才能正确的分隔开，不能用`String.split(".")`;
+2. 如果用“|”作为分隔的话，必须是如下写法：`String.split("\\|")`,这样才能正确的分隔开，不能用`String.split("|")`;
+`“.”`和`“|”`都是转义字符，必须得加`"\\"`;
+
+### [6.6 字符串生成器（String-Builder类）](#66字符串生成器（String-Builder类）)
+
+创建成功的字符串对象，长度是固定的，内容无法被改变，虽然使用+可以增长字符串，但是其实是返回一个新的`String`对象。如果是重复修改字符串会大量占用系统内存，所以增加了字符序列`String-Builder`类。该类在`java.lang.StringBuilder`的API。  
+$\color{aqua}{格式}$：  
 StringBuilder 对象名 = new StringBuilder("字符串初始值");
-6.6.1 append()
-用于向字符串生成器追加内容，可以追加任何数据类型，如int、boolean、另一个字符串生成器等。
-格式：字符串生成器名.append(内容);
-6.6.2 insert()
-用于向字符串生成器插入内容，可以插入任何数据类型，如int、boolean、另一个字符串生成器等。
-格式：字符串生成器名.insert(目标索引值,内容);
 
-6.6.3 delete()
-用于删除字符串生成器中的字符。
-格式：字符串生成器名.delete(起始位置,结束位置);
-不包含结束位置。
+#### &emsp;[6.6.1 append()](#661append)
 
-6.6.4 toString()
-将该对象转换为字符串输出。
+用于向字符串生成器追加内容，可以追加任何数据类型，如`int`、`boolean`、另一个字符串生成器等。  
+$\color{aqua}{格式}$：字符串生成器名.append(内容);  
 
-6.7日期
-6.7.1 Date类
-java.util 包提供了 Date 类来封装当前的日期和时间。 Date 类提供两个构造函数来实例化 Date 对象。
+#### &emsp;[6.6.2 insert()](#662insert)
 
-第一个构造函数使用当前日期和时间来初始化对象。
-Date( )
-第二个构造函数接收一个参数，该参数是从1970年1月1日起的毫秒数。
-Date(long millisec)
+用于向字符串生成器插入内容，可以插入任何数据类型，如`int`、`boolean`、另一个字符串生成器等。  
+$\color{aqua}{格式}$：字符串生成器名.insert(目标索引值,内容);
+
+#### &emsp;[6.6.3 delete()](#663delete)
+
+用于删除字符串生成器中的字符。  
+$\color{aqua}{格式}$：字符串生成器名.delete(起始位置,结束位置);  
+不包含结束位置。  
+
+#### &emsp;[6.6.4 toString()](#664toString)
+
+将该对象转换为字符串输出。  
+
+### [6.7 日期](#67日期)
+
+#### &emsp;[6.7.1 Date类](#671Date类)
+
+`java.util`包提供了`Date`类来封装当前的日期和时间。`Date`类提供两个构造函数来实例化`Date`对象。
+
+第一个构造函数使用当前日期和时间来初始化对象。  
+`Date( )`  
+第二个构造函数接收一个参数，该参数是从1970年1月1日起的毫秒数。  
+`Date(long millisec)`
 
 常用方法：
-1	boolean after(Date date)
-若当调用此方法的Date对象在指定日期之后返回true,否则返回false。
-2	boolean before(Date date)
-若当调用此方法的Date对象在指定日期之前返回true,否则返回false。
-3	Object clone( )
+
+1. `boolean after(Date date)`  
+若当调用此方法的`Date`对象在指定日期之后返回`true`,否则返回`false`。
+2. `boolean before(Date date)`  
+若当调用此方法的`Date`对象在指定日期之前返回`true`,否则返回`false`。
+3. `Object clone( )`  
 返回此对象的副本。
-4	int compareTo(Date date)
-比较当调用此方法的Date对象和指定日期。两者相等时候返回0。调用对象在指定日期之前则返回负数。调用对象在指定日期之后则返回正数。
-5	int compareTo(Object obj)
-若obj是Date类型则操作等同于compareTo(Date) 。否则它抛出ClassCastException。
-6	boolean equals(Object date)
-当调用此方法的Date对象和指定日期相等时候返回true,否则返回false。
-7	long getTime( )
-返回自 1970 年 1 月 1 日 00:00:00 GMT 以来此 Date 对象表示的毫秒数。
-8	int hashCode( )
+4. `int compareTo(Date date)`  
+比较当调用此方法的`Date`对象和指定日期。两者相等时候返回0。调用对象在指定日期之前则返回负数。调用对象在指定日期之后则返回正数。
+5. `int compareTo(Object obj)`  
+若obj是Date类型则操作等同于compareTo(Date) 。否则它抛出`ClassCastException`。
+6. `boolean equals(Object date)`  
+当调用此方法的`Date`对象和指定日期相等时候返回`true`,否则返回`false`。
+7. `long getTime()`  
+返回自1970年1月1日00:00:00GMT以来此`Date`对象表示的毫秒数。
+8. `int hashCode()`  
  返回此对象的哈希码值。
-9	void setTime(long time)
- 
+9. `void setTime(long time)`
 用自1970年1月1日00:00:00 GMT以后time毫秒数设置时间和日期。
-10	String toString( )
-把此 Date 对象转换为以下形式的 String： dow mon dd hh:mm:ss zzz yyyy 其中： dow 是一周中的某一天 (Sun, Mon, Tue, Wed, Thu, Fri, Sat)。
+10. `String toString()`
+把此`Date`对象转换为以下形式的`String`：`dow mon dd hh:mm:ss zzz yyyy`其中：`dow`是一周中的某一天(Sun, Mon, Tue, Wed, Thu, Fri, Sat)。
 
-6.7.2 Calendar类
-我们现在已经能够格式化并创建一个日期对象了，但是我们如何才能设置和获取日期数据的特定部分呢，比如说小时，日，或者分钟? 我们又如何在日期的这些部分加上或者减去值呢? 答案是使用Calendar 类。
+#### &emsp;[6.7.2 Calendar类](#672Calendar类)
 
-Calendar类的功能要比Date类强大很多，而且在实现方式上也比Date类要复杂一些。
+我们现在已经能够格式化并创建一个日期对象了，但是我们如何才能设置和获取日期数据的特定部分呢，比如说小时，日，或者分钟? 我们又如何在日期的这些部分加上或者减去值呢? 答案是使用`Calendar`类。  
 
-Calendar类是一个抽象类，在实际使用时实现特定的子类的对象，创建对象的过程对程序员来说是透明的，只需要使用getInstance方法创建即可。
+`Calendar`类的功能要比`Date`类强大很多，而且在实现方式上也比`Date`类要复杂一些。
 
-创建一个代表系统当前日期的Calendar对象
-Calendar c = Calendar.getInstance();//默认是当前日期
-创建一个指定日期的Calendar对象
-使用Calendar类代表特定的时间，需要首先创建一个Calendar的对象，然后再设定该对象中的年月日参数来完成。
+`Calendar`类是一个抽象类，在实际使用时实现特定的子类的对象，创建对象的过程对程序员来说是透明的，只需要使用`getInstance`方法创建即可。  
 
+创建一个代表系统当前日期的`Calendar`对象  
+`Calendar c = Calendar.getInstance();//默认是当前日期`
+创建一个指定日期的`Calendar`对象
+使用`Calendar`类代表特定的时间，需要首先创建一个`Calendar`的对象，然后再设定该对象中的年月日参数来完成。
+
+```java
 //创建一个代表2009年6月12日的Calendar对象
 Calendar c1 = Calendar.getInstance();
 c1.set(2009, 6 - 1, 12);
-Calendar类对象字段类型
-Calendar类中用以下这些常量表示不同的意义，jdk内的很多类其实都是采用的这种思想
+```
 
-常量
-Calendar.YEAR	年份
-Calendar.MONTH	月份
-Calendar.DATE	日期
-Calendar.DAY_OF_MONTH	日期，和上面的字段意义完全相同
-Calendar.HOUR	12小时制的小时
-Calendar.HOUR_OF_DAY	24小时制的小时
-Calendar.MINUTE	分钟
-Calendar.SECOND	秒
-Calendar.DAY_OF_WEEK	星期几
+`Calendar`类对象字段类型
+`Calendar`类中用以下这些常量表示不同的意义，jdk内的很多类其实都是采用的这种思想
+
+常量  
+`Calendar.YEAR` 年份  
+`Calendar.MONTH` 月份  
+`Calendar.DATE` 日期  
+`Calendar.DAY_OF_MONTH` 日期，和上面的字段意义完全相同  
+`Calendar.HOUR` 12小时制的小时  
+`Calendar.HOUR_OF_DAY` 24小时制的小时  
+`Calendar.MINUTE` 分钟  
+`Calendar.SECOND` 秒  
+`Calendar.DAY_OF_WEEK` 星期几  
+
+<!--
+
 
 6.7.2.1 set方法
 如：
