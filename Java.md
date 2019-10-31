@@ -216,23 +216,129 @@
 
 #### &emsp;&emsp;6.7.2[Calendar类](#672-Calendar类)
 
-##### &emsp;&emsp;&emsp;6.7.2.1[说明](#6721-说明)
+##### &emsp;&emsp;&emsp;6.7.2.1[set方法](#6721-set方法)
 
-##### &emsp;&emsp;&emsp;6.7.2.2[内部类向上转型为接口](#6722-内部类向上转型为接口)
+##### &emsp;&emsp;&emsp;6.7.2.2[add方法](#6722-add方法)
 
-#### &emsp;&emsp;6.6.2[insert()](#662-insert())
+#### &emsp;&emsp;6.7.3[GregorianCalendar类](#673-GregorianCalendar类)
+
+### &emsp;6.8[格式化字符串](#68-格式化字符串)
+
+#### &emsp;&emsp;6.8.1[日期时间字符串格式化](#681-日期时间字符串格式化)
+
+##### &emsp;&emsp;&emsp;6.8.1.1[format()函数](#6811-format函数)
+
+##### &emsp;&emsp;&emsp;6.8.1.2[SimpleDateFormat类](#6812-SimpleDateFormat类)
+
+##### &emsp;&emsp;&emsp;6.8.1.3[printf()函数](#6813-printf函数)
+
+#### &emsp;&emsp;6.8.2[常规字符串格式化](#682-常规字符串格式化)
+
+### &emsp;6.9[正则表达式（regex类）](#69-正则表达式（regex类）)
+
+#### &emsp;&emsp;6.9.1[常见匹配符号](#691-常见匹配符号)
+
+#### &emsp;&emsp;6.9.2[元字符](#692-元字符)
+
+#### &emsp;&emsp;6.9.3[限定符](#693-限定符)
+
+#### &emsp;&emsp;6.9.4[分组和反向引用](#694-分组和反向引用)
+
+##### &emsp;&emsp;&emsp;6.9.4.1[仅分组但无反向引用](#6941-仅分组但无反向引用)
+
+##### &emsp;&emsp;&emsp;6.9.4.2[分组的反向引用副本](#6942-分组的反向引用副本)
+
+#### &emsp;&emsp;6.9.5[否定先行断言](#695-否定先行断言)
+
+#### &emsp;&emsp;6.9.6[指定正则表达式的模式](#696-指定正则表达式的模式)
+
+#### &emsp;&emsp;6.9.7[Java中的反斜杠](#697-Java中的反斜杠)
+
+#### &emsp;&emsp;6.9.8[内置的字符串正则处理方法](#698-内置的字符串正则处理方法)
+
+#### &emsp;&emsp;6.9.9[模式和匹配](#699-模式和匹配)
+
+#### &emsp;&emsp;6.9.10[中文的匹配](#6910-中文的匹配)
+
+#### &emsp;&emsp;6.9.11[数字范围的匹配](#6911-数字范围的匹配)
+
+#### &emsp;&emsp;6.9.12[img标签的匹配](#6912-img标签的匹配)
+
+#### &emsp;&emsp;6.9.13[贪婪与非贪婪模式的匹配](#6913-贪婪与非贪婪模式的匹配)
+
+#### &emsp;&emsp;6.9.14[限定符](#6914-限定符)
 
 ## 第七章[数组（Arrays类）](#第七章-数组arrays类)
 
+### &emsp;7.1[一维数组](#71-一维数组)
+
+#### &emsp;&emsp;7.1.1[创建一维数组](#711-创建一维数组)
+
+#### &emsp;&emsp;7.1.2[初始化一维数组](#712-初始化一维数组)
+
+#### &emsp;&emsp;7.1.3[使用一维数组](#713-使用一维数组)
+
+### &emsp;7.2[二维数组](#72-二维数组)
+
+#### &emsp;&emsp;7.2.1[创建二维数组](#721-创建二维数组)
+
+#### &emsp;&emsp;7.2.2[初始化二维数组](#722-初始化二维数组)
+
+### &emsp;7.3[数组操作](#73-数组操作)
+
+#### &emsp;&emsp;7.3.1[数组遍历](#731-数组遍历)
+
+#### &emsp;&emsp;7.3.2[替换元素](#732-替换元素)
+
+#### &emsp;&emsp;7.3.3[数组排序](#733-数组排序)
+
+#### &emsp;&emsp;7.3.4[数组复制](#734-数组复制)
+
+#### &emsp;&emsp;7.3.5[数组查询](#735-数组查询)
+
 ## 第八章[数字处理类](#第八章-数字处理类)
+
+### &emsp;8.1[DecimalFormat类（格式化数字）](#81-DecimalFormat类（格式化数字）)
+
+#### &emsp;&emsp;8.1.1[format()方法](#811-format方法)
+
+#### &emsp;&emsp;8.1.2[setGroupingSize()方法](#812-setGroupingSize()方法)
+
+### &emsp;8.2[Math类（数学运算）](#82-Math类（数学运算）)
+
+#### &emsp;&emsp;8.2.1[数学常量](#821-数学常量)
+
+#### &emsp;&emsp;8.2.2[常用数学方法](#822-常用数学方法)
+
+##### &emsp;&emsp;&emsp;8.2.2.1[三角函数](#8221-三角函数)
+
+##### &emsp;&emsp;&emsp;8.2.2.2[指数函数](#8222-指数函数)
+
+##### &emsp;&emsp;&emsp;8.2.2.3[取整函数](#8223-取整函数)
+
+##### &emsp;&emsp;&emsp;8.2.2.4[最值绝对值函数](#8224-最值绝对值函数)
+
+#### &emsp;&emsp;8.2.3[随机数](#823-随机数)
+
+#### &emsp;&emsp;8.2.4[大整数运算（BigInteger类）](#824-大整数运算（BigInteger类）)
+
+#### &emsp;&emsp;8.2.5[大小数运算（BigDeciaml类）](#825-大小数运算（BigDeciaml类）)
+
+### &emsp;8.3[Random类](#83-Random类)
 
 ## 第九章[类处理](#第九章-类处理)
 
-### &emsp;9.3[继承](#93-继承)
+### &emsp;9.1[继承](#91-继承)
 
 #### &emsp;&emsp;9.1.1[extends和super关键字](#911-extends和super关键字)
 
 #### &emsp;&emsp;9.1.2[final方法与类](#912-final方法与类)
+
+##### &emsp;&emsp;&emsp;9.1.2.1[final参数](#9121-final参数)
+
+##### &emsp;&emsp;&emsp;9.1.2.2[final方法](#9122-final方法)
+
+##### &emsp;&emsp;&emsp;9.1.2.3[final类](#9123-final类)
 
 ### &emsp;9.2[Object类](#92-Object类)
 
@@ -1380,39 +1486,43 @@ c1.set(2009, 6 - 1, 12);
 `Calendar.SECOND` 秒  
 `Calendar.DAY_OF_WEEK` 星期几  
 
-<!--
+##### &emsp;&emsp;[6.7.2.1 set方法](#6721set方法)
 
-
-6.7.2.1 set方法
 如：
-Calendar c1 = Calendar.getInstance();
-调用：
+`Calendar c1 = Calendar.getInstance();`  
+调用：  
+
+```java
 public final void set(int year,int month,int date)
 c1.set(2009, 6 - 1, 12);//把Calendar对象c1的年月日分别设这为：2009、6、12
+```
+
 利用字段类型设置
 
 如果只设定某个字段，例如日期的值，则可以使用如下set方法：
-public void set(int field,int value)
 
-把 c1对象代表的日期设置为10号，其它所有的数值会被重新计算
+`public void set(int field,int value)`
 
-c1.set(Calendar.DATE,10);
-把c1对象代表的年份设置为2008年，其他的所有数值会被重新计算
+1. 把 c1对象代表的日期设置为10号，其它所有的数值会被重新计算  
+   `c1.set(Calendar.DATE,10);`  
 
-c1.set(Calendar.YEAR,2008);
+2. 把c1对象代表的年份设置为2008年，其他的所有数值会被重新计算  
+    `c1.set(Calendar.YEAR,2008);`
+
 其他字段属性set的意义以此类推
 
-6.7.2.2 add方法
+##### &emsp;&emsp;[6.7.2.2 add方法](#6722add方法)
 
-Calendar c1 = Calendar.getInstance();
+`Calendar c1 = Calendar.getInstance();`  
 把c1对象的日期加上10，也就是c1也就表示为10天后的日期，其它所有的数值会被重新计算
 
-c1.add(Calendar.DATE, 10);
+`c1.add(Calendar.DATE, 10);`  
 把c1对象的日期减去10，也就是c1也就表示为10天前的日期，其它所有的数值会被重新计算
 
-c1.add(Calendar.DATE, -10);
+`c1.add(Calendar.DATE, -10);`  
 其他字段属性的add的意义以此类推
 
+```java
 Calendar c1 = Calendar.getInstance();
 // 获得年份
 int year = c1.get(Calendar.YEAR);
@@ -1428,85 +1538,91 @@ int minute = c1.get(Calendar.MINUTE);
 int second = c1.get(Calendar.SECOND);
 // 获得星期几（注意（这个与Date类是不同的）：1代表星期日、2代表星期1、3代表星期二，以此类推）
 int day = c1.get(Calendar.DAY_OF_WEEK);
+```
 
-6.7.3 GregorianCalendar类
-Calendar类实现了公历日历，GregorianCalendar是Calendar类的一个具体实现。
+#### &emsp;[6.7.3 GregorianCalendar类](#673GregorianCalendar类)
 
-Calendar 的getInstance（）方法返回一个默认用当前的语言环境和时区初始化的GregorianCalendar对象。GregorianCalendar定义了两个字段：AD和BC。这是代表公历定义的两个时代。
+`Calendar`类实现了公历日历，`GregorianCalendar`是`Calendar`类的一个具体实现。
 
-构造方法：
-1	GregorianCalendar()
-在具有默认语言环境的默认时区内使用当前时间构造一个默认的 GregorianCalendar。
-2	GregorianCalendar(int year, int month, int date)
-在具有默认语言环境的默认时区内构造一个带有给定日期设置的 GregorianCalendar
-3	GregorianCalendar(int year, int month, int date, int hour, int minute)
-为具有默认语言环境的默认时区构造一个具有给定日期和时间设置的 GregorianCalendar。
-4	GregorianCalendar(int year, int month, int date, int hour, int minute, int second)
-  为具有默认语言环境的默认时区构造一个具有给定日期和时间设置的 GregorianCalendar。
-5	GregorianCalendar(Locale aLocale)
-在具有给定语言环境的默认时区内构造一个基于当前时间的 GregorianCalendar。
-6	GregorianCalendar(TimeZone zone)
-在具有默认语言环境的给定时区内构造一个基于当前时间的 GregorianCalendar。
-7	GregorianCalendar(TimeZone zone, Locale aLocale)
- 在具有给定语言环境的给定时区内构造一个基于当前时间的 GregorianCalendar。
+`Calendar`的`getInstance()`方法返回一个默认用当前的语言环境和时区初始化的`GregorianCalendar`对象。`GregorianCalendar`定义了两个字段：AD和BC。这是代表公历定义的两个时代。
 
-常用方法：
-1	void add(int field, int amount)
+构造方法：  
+
+1. `GregorianCalendar()`  
+在具有默认语言环境的默认时区内使用当前时间构造一个默认的 `GregorianCalendar`对象。  
+2. `GregorianCalendar(int year, int month, int date)`  
+在具有默认语言环境的默认时区内构造一个带有给定日期设置的`GregorianCalendar`。  
+3. `GregorianCalendar(int year, int month, int date, int hour, int minute)`  
+为具有默认语言环境的默认时区构造一个具有给定日期和时间设置的。   GregorianCalendar。  
+4. `GregorianCalendar(int year, int month, int date, int hour, int minute, int second)`  
+  为具有默认语言环境的默认时区构造一个具有给定日期和时间设置的 `GregorianCalendar`。  
+5. `GregorianCalendar(Locale aLocale)`  
+在具有给定语言环境的默认时区内构造一个基于当前时间的`GregorianCalendar`。  
+6. `GregorianCalendar(TimeZone zone)`  
+在具有默认语言环境的给定时区内构造一个基于当前时间的`GregorianCalendar`。  
+7. `GregorianCalendar(TimeZone zone, Locale aLocale)`  
+ 在具有给定语言环境的给定时区内构造一个基于当前时间的`GregorianCalendar`。  
+
+常用方法：  
+
+1. `void add(int field, int amount)`  
 根据日历规则，将指定的（有符号的）时间量添加到给定的日历字段中。
-2	protected void computeFields()
+2. `protected void computeFields()`  
 转换UTC毫秒值为时间域值
-3	protected void computeTime()
+3. `protected void computeTime()`  
 覆盖Calendar ，转换时间域值为UTC毫秒值
-4	boolean equals(Object obj)
+4. `boolean equals(Object obj)`  
 比较此 GregorianCalendar 与指定的 Object。
-5	int get(int field)
+5. `int get(int field)`  
 获取指定字段的时间值
-6	int getActualMaximum(int field)
+6. `int getActualMaximum(int field)`  
 返回当前日期，给定字段的最大值
-7	int getActualMinimum(int field)
+7. `int getActualMinimum(int field)`  
 返回当前日期，给定字段的最小值
-8	int getGreatestMinimum(int field)
+8. `int getGreatestMinimum(int field)`  
  返回此 GregorianCalendar 实例给定日历字段的最高的最小值。
-9	Date getGregorianChange()
+9. `Date getGregorianChange()`  
 获得格里高利历的更改日期。
-10	int getLeastMaximum(int field)
+10. `int getLeastMaximum(int field)`  
 返回此 GregorianCalendar 实例给定日历字段的最低的最大值
-11	int getMaximum(int field)
+11. `int getMaximum(int field)`  
 返回此 GregorianCalendar 实例的给定日历字段的最大值。
-12	Date getTime()
+12. `Date getTime()`  
 获取日历当前时间。
-13	long getTimeInMillis()
+13. `long getTimeInMillis()`  
 获取用长整型表示的日历的当前时间
-14	TimeZone getTimeZone()
+14. `TimeZone getTimeZone()`  
 获取时区。
-15	int getMinimum(int field)
+15. `int getMinimum(int field)`  
 返回给定字段的最小值。
-16	int hashCode()
+16. `int hashCode()`  
 重写hashCode.
-17	boolean isLeapYear(int year)
+17. `boolean isLeapYear(int year)`  
 确定给定的年份是否为闰年。
-18	void roll(int field, boolean up)
+18. `void roll(int field, boolean up)`  
 在给定的时间字段上添加或减去（上/下）单个时间单元，不更改更大的字段。
-19	void set(int field, int value)
+19. `void set(int field, int value)`  
 用给定的值设置时间字段。
-20	void set(int year, int month, int date)
+20. `void set(int year, int month, int date)`  
 设置年、月、日的值。
-21	void set(int year, int month, int date, int hour, int minute)
+21. `void set(int year, int month, int date, int hour, int minute)`  
 设置年、月、日、小时、分钟的值。
-22	void set(int year, int month, int date, int hour, int minute, int second)
+22. `void set(int year, int month, int date, int hour, int minute, int second)`  
 设置年、月、日、小时、分钟、秒的值。
-23	void setGregorianChange(Date date)
-设置 GregorianCalendar 的更改日期。
-24	void setTime(Date date)
+23. `void setGregorianChange(Date date)`  
+`设置 GregorianCalendar 的更改日期。
+24. `void setTime(Date date)`  
 用给定的日期设置Calendar的当前时间。
-25	void setTimeInMillis(long millis)
+25. `void setTimeInMillis(long millis)`  
 用给定的long型毫秒数设置Calendar的当前时间。
-26	void setTimeZone(TimeZone value)
+26. `void setTimeZone(TimeZone value)`  
 用给定时区值设置当前时区。
-27	String toString()
+27. `String toString()`  
 返回代表日历的字符串。
 
 如：
+
+```java
 import java.util.*;
 public class GregorianCalendarDemo {
    public static void main(String args[]) {
@@ -1542,110 +1658,147 @@ public class GregorianCalendarDemo {
 Date: Apr 22 2009
 Time: 11:25:27
 当前年份不是闰年
+```
 
-6.8格式化字符串
-String类的静态format()方法用于创建格式化的字符串。
-可以和println()配合使用以实现printf()方法的作用。
-格式：String.format(格式转换字符串，参数)
-参数可以为0，如果参数数量超过了对应格式符的数量，多余的就自动省略。
+### [6.8 格式化字符串](#68格式化字符串)
 
-格式：String.format(格式化应用的语言环境,格式转换字符串，参数)
-一般省去语言环境的化就进行本地化，如果该参数为null，就不进行本地化。
+`String`类的静态`format()`方法用于创建格式化的字符串。  
+可以和`println()`配合使用以实现`printf()`方法的作用。  
+$\color{aqua}{格式}$：String.format(格式转换字符串，参数)  
+参数可以为0，如果参数数量超过了对应格式符的数量，多余的就自动省略。  
+
+$\color{aqua}{格式}$：String.format(格式化应用的语言环境,格式转换字符串，参数)  
+一般省去语言环境的化就进行本地化，如果该参数为`null`，就不进行本地化。  
 
 格式转换码一般以%开始。
 
-6.8.1日期时间字符串格式化
-导入Date包:import java.util.Date
-然后需要创建Date对象然后对这个对象格式化然后输出。
+#### &emsp;[6.8.1 日期时间字符串格式化](#681日期时间字符串格式化)
 
-1、format()函数
-日期格式化转换码：%te：一个月的天数； %tb：语言环境下的月份简称； %tB：语言环境下的月份全称； %ta：语言环境下的星期几简称； %tA：指定语言环境的星期几全称； %tc：包括全部日期和时间信息； %ty：二位年份； %tY:四位年份； %tj：一年中的第几天； %tm：月份； %td：一个月中的第几天；
-如：
+导入Date包:import java.util.Date  
+然后需要创建Date对象然后对这个对象格式化然后输出。  
+
+##### &emsp;&emsp;[6.8.1.1 format()函数](#6811format函数)
+
+日期格式化转换码：  
+%te：一个月的天数；  
+%tb：语言环境下的月份简称；  
+%tB：语言环境下的月份全称；  
+%ta：语言环境下的星期几简称；
+%tA：指定语言环境的星期几全称；  
+%tc：包括全部日期和时间信息；  
+%ty：二位年份；  
+%tY:四位年份；  
+%tj：一年中的第几天；  
+%tm：月份；  
+%td：一个月中的第几天；
+如：  
+
+```java
 import java.util.Date;
 public class Eval{
-public static void main(String[] args){
-Date date = new Date();
-String year = String.format("%Y",date);
-String month = String.format("%tB",date);
-String day = String.format("%td",date);
-System.out.println("今年："+year+"年");
-System.out.println("现在是"+month);
-System.out.println("今天是："+day+"号");
+    public static void main(String[] args){
+        Date date = new Date();
+        String year = String.format("%Y",date);
+        String month = String.format("%tB",date);
+        String day = String.format("%td",date);
+        System.out.println("今年："+year+"年");
+        System.out.println("现在是"+month);
+        System.out.println("今天是："+day+"号");
+    }
 }
-}
+```
 
-时间格式转换码：%tI：2位数字的12的小时； %tH：2位数字的24的小时； %tl：1到2位数字的12的小时； %tk：1到2位的24的小时； %tM：2位数字的分钟； %tS：2位数字的秒数； %tL：3位数字的毫秒数； %tN：9位数字的微秒数； %tp：指定语言的上午下午标记； %tZ：相对于GMT RFC 82格式的数字时区偏移量； %ts：1970.1.1.00:00:00到现在的秒数； %tQ：1970.1.1.00:00:00到现在的秒数； 
+时间格式转换码：  
+%tI：2位数字的12的小时；  
+%tH：2位数字的24的小时；  
+%tl：1到2位数字的12的小时；  
+%tk：1到2位的24的小时；  
+%tM：2位数字的分钟；  
+%tS：2位数字的秒数；  
+%tL：3位数字的毫秒数；  
+%tN：9位数字的微秒数；  
+%tp：指定语言的上午下午标记；  
+%tZ：相对于GMT RFC 82格式的数字时区偏移量；  
+%ts：1970.1.1.00:00:00到现在的秒数；  
+%tQ：1970.1.1.00:00:00到现在的秒数；  
 获取时间方式是与获取日期一致的。
 
-日期时间组合格式转换码：%tF：年-月-日 四位年份格式； %tD：月/日/年 两位年份格式； %tc：全部日期和时间信息； %tr：时：分：秒 PM/AM 12时制格式； %tT：时：分：秒 24时制格式； %tR：时：分 24时制格式；
+日期时间组合格式转换码：  
+%tF：年-月-日 四位年份格式；  
+%tD：月/日/年 两位年份格式；  
+%tc：全部日期和时间信息；  
+%tr：时：分：秒 PM/AM 12时制格式；  
+%tT：时：分：秒 24时制格式；  
+%tR：时：分 24时制格式；
 
-2、SimpleDateFormat类
-SimpleDateFormat 是一个以语言环境敏感的方式来格式化和分析日期的类。SimpleDateFormat 允许你选择任何用户自定义日期时间格式来运行。例如：
+##### &emsp;&emsp;[6.8.1.2 SimpleDateFormat类](#6812SimpleDateFormat类)
+
+`SimpleDateFormat`是一个以语言环境敏感的方式来格式化和分析日期的类。  `SimpleDateFormat`允许你选择任何用户自定义日期时间格式来运行。  
 
 如：
+
+```java
 import  java.util.*;
 import java.text.*;
- 
 public class DateDemo {
-   public static void main(String args[]) {
- 
-      Date dNow = new Date( );
-      SimpleDateFormat ft = new SimpleDateFormat ("yyyy-MM-dd hh:mm:ss");
- 
-      System.out.println("当前时间为: " + ft.format(dNow));
+    public static void main(String args[]) {
+    Date dNow = new Date( );
+    SimpleDateFormat ft = new SimpleDateFormat ("yyyy-MM-dd hh:mm:ss");
+        System.out.println("当前时间为: " + ft.format(dNow));
    }
 }
+```
 
-这一行代码确立了转换的格式，其中 yyyy 是完整的公元年，MM 是月份，dd 是日期，HH:mm:ss 是时、分、秒。
+这一行代码确立了转换的格式，其中yyyy是完整的公元年，MM是月份，dd是日期，HH:mm:ss 是时、分、秒。
 
-注意:有的格式大写，有的格式小写，例如 MM 是月份，mm 是分；HH 是 24 小时制，而 hh 是 12 小时制。
->>>>>2018-09-06 10:16:34
+注意:有的格式大写，有的格式小写，例如MM是月份mm是分；HH是24小时制，而hh是12小时制。  
+`>>>>>2018-09-06 10:16:34`
 
 格式控制符：
 
-字母	描述	示例
-G	纪元标记	AD
-y	四位年份	2001
-M	月份	July or 07
-d	一个月的日期	10
-h	 A.M./P.M. (1~12)格式小时	12
-H	一天中的小时 (0~23)	22
-m	分钟数	30
-s	秒数	55
-S	毫秒数	234
-E	星期几	Tuesday
-D	一年中的日子	360
-F	一个月中第几周的周几	2 (second Wed. in July)
-w	一年中第几周	40
-W	一个月中第几周	1
-a	A.M./P.M. 标记	PM
-k	一天中的小时(1~24)	24
-K	 A.M./P.M. (0~11)格式小时	10
-z	时区	Eastern Standard Time
-'	文字定界符	Delimiter
-"	单引号	`
+字母 描述 示例  
+G 纪元标记 AD  
+y 四位年份 2001  
+M 月份 July or 07  
+d 一个月的日期 10  
+h  A.M./P.M. (1~12)格式小时 12  
+H 一天中的小时 (0~23) 22  
+m 分钟数 30  
+s 秒数 55  
+S 毫秒数 234  
+E 星期几 Tuesday  
+D 一年中的日子 360  
+F 一个月中第几周的周几 2 (second Wed. in July)  
+w 一年中第几周 40  
+W 一个月中第几周 1  
+a A.M./P.M. 标记 PM  
+k 一天中的小时(1~24) 24  
+K  A.M./P.M. (0~11)格式小时 10  
+z 时区 Eastern Standard Time  
+' 文字定界符 Delimiter  
+" 单引号 `  
 
-3、printf()函数：
-printf 方法可以很轻松地格式化时间和日期。使用两个字母格式，它以 %t 开头并且以下面表格中的一个字母结尾。
+##### &emsp;&emsp;[6.8.1.3 printf()函数](#6813printf函数)
 
-c 包括全部日期和时间信息 星期六 十月 27 14:21:20 CST 2007
-F "年-月-日"格式 2007-10-27
-D "月/日/年"格式 10/27/07
-r "HH:MM:SS PM"格式（12时制） 02:25:51 下午
-T "HH:MM:SS"格式（24时制） 14:28:16
-R "HH:MM"格式（24时制） 14:28
+printf方法可以很轻松地格式化时间和日期。使用两个字母格式，它以 %t 开头并且以下面表格中的一个字母结尾。
+
+c 包括全部日期和时间信息 星期六 十月 27 14:21:20 CST 2007  
+F "年-月-日"格式 2007-10-27  
+D "月/日/年"格式 10/27/07  
+r "HH:MM:SS PM"格式（12时制） 02:25:51 下午  
+T "HH:MM:SS"格式（24时制） 14:28:16  
+R "HH:MM"格式（24时制） 14:28  
 
 如：
+
+```java
 import java.util.Date;
- 
 public class DateDemo {
- 
   public static void main(String args[]) {
      // 初始化 Date 对象
      Date date = new Date();
- 
-     //c的使用  
-    System.out.printf("全部日期和时间信息：%tc%n",date);          
+    //c的使用  
+    System.out.printf("全部日期和时间信息：%tc%n",date);
     //f的使用  
     System.out.printf("年-月-日格式：%tF%n",date);  
     //d的使用  
@@ -1665,46 +1818,53 @@ public class DateDemo {
 HH:MM:SS PM格式（12时制）：10:43:36 上午  
 HH:MM:SS格式（24时制）：10:43:36  
 HH:MM格式（24时制）：10:43  
+```
+
 如果你需要重复提供日期，那么利用这种方式来格式化它的每一部分就有点复杂了。因此，可以利用一个格式化字符串指出要被格式化的参数的索引。
 
-索引必须紧跟在%后面，而且必须以$结束。例如：
+索引必须紧跟在%后面，而且必须以`$`结束。例如：
+
+```java
 import java.util.Date;
 public class DateDemo {
    public static void main(String args[]) {
        // 初始化 Date 对象
        Date date = new Date();
        // 使用toString()显示日期和时间
-       System.out.printf("%1$s %2$tB %2$td, %2$tY", 
-                         "Due date:", date);
+       System.out.printf("%1$s %2$tB %2$td, %2$tY","Due date:", date);
    }
 }
 >>>>>
 Due date: February 09, 2014
+```
 
-或者，你可以使用 < 标志。它表明先前被格式化的参数要被再次使用。例如：
+或者，你可以使用<标志。它表明先前被格式化的参数要被再次使用。例如：
+
+```java
 import java.util.Date;
 public class DateDemo {
    public static void main(String args[]) {
        // 初始化 Date 对象
        Date date = new Date();  
        // 显示格式化时间
-       System.out.printf("%s %tB %<te, %<tY", 
-                         "Due date:", date);
+       System.out.printf("%s %tB %<te, %<tY","Due date:", date);
    }
 }
 
 >>>>>
 Due date: February 09, 2014
+```
+
 定义日期格式的转换符可以使日期通过指定的转换符生成新字符串。这些日期转换符如下所示：
 
-实例
+```java
 import java.util.*;
 public class DateDemo {
    public static void main(String args[]) {
-       Date date=new Date();                                      
+       Date date=new Date();
         //b的使用，月份简称  
-        String str=String.format(Locale.US,"英文月份简称：%tb",date);       
-        System.out.println(str);                                                                              
+        String str=String.format(Locale.US,"英文月份简称：%tb",date);
+        System.out.println(str);
         System.out.printf("本地月份简称：%tb%n",date);  
         //B的使用，月份全称  
         str=String.format(Locale.US,"英文月份全称：%tB",date);  
@@ -1742,53 +1902,81 @@ public class DateDemo {
 两位数字的月份（不足两位前面补0）：05
 两位数字的日（不足两位前面补0）：04
 月份的日（前面不补0）：4
+```
 
-6.8.2常规字符串格式化
-%b、%B：转换为布尔类型； %h、%H：转换为散列码； %s、%S：转换为字符串类型； %c、%C：转换为字符类型； %d：转换为十进制整数； %o：转换为八进制整数； %x、%X：转换为十六进制整数； %e：转换为用计算机科学计数法表示的十进制数； %a：转换为带有效位数和指数的十六进制浮点值； %n：转换为行分隔符； %%：转换为%；
+#### &emsp;[6.8.2 常规字符串格式化](#682常规字符串格式化)
 
-6.9正则表达式（regex类）
-导入regex包:import java.util.regex
-java.util.regex 包主要包括以下三个类：
-Pattern 类：pattern 对象是一个正则表达式的编译表示。Pattern 类没有公共构造方法。要创建一个 Pattern 对象，你必须首先调用其公共静态编译方法，它返回一个 Pattern 对象。该方法接受一个正则表达式作为它的第一个参数。
+%b、%B：转换为布尔类型；  
+%h、%H：转换为散列码；  
+%s、%S：转换为字符串类型；  
+%c、%C：转换为字符类型；  
+%d：转换为十进制整数；  
+%o：转换为八进制整数；  
+%x、%X：转换为十六进制整数；  
+%e：转换为用计算机科学计数法表示的十进制数；  
+%a：转换为带有效位数和指数的十六进制浮点值；  
+%n：转换为行分隔符； %%：转换为%；
 
-Matcher 类：Matcher 对象是对输入字符串进行解释和匹配操作的引擎。与Pattern 类一样，Matcher 也没有公共构造方法。你需要调用 Pattern 对象的 matcher 方法来获得一个 Matcher 对象。
+### [6.9 正则表达式（regex类）](#69正则表达式（regex类）)
 
-PatternSyntaxException：PatternSyntaxException 是一个非强制异常类，它表示一个正则表达式模式中的语法错误。
+导入`regex`包:`import java.util.regex`  
+`java.util.regex`包主要包括以下三个类：  
 
-6.9.1 常见匹配符号
-.	匹配所有单个字符，除了换行符（Linux 中换行是 \n，Windows 中换行是 \r\n）
-^regex	正则必须匹配字符串开头
-regex$	正则必须匹配字符串结尾
-[abc]	复选集定义，匹配字母 a 或 b 或 c
-[abc][vz]	复选集定义，匹配字母 a 或 b 或 c，后面跟着 v 或 z
-[^abc]	当插入符 ^ 在中括号中以第一个字符开始显示，则表示否定模式。此模式匹配所有字符，除了 a 或 b 或 c
-[a-d1-7]	范围匹配，匹配字母 a 到 d 和数字从 1 到 7 之间，但不匹配 d1
-XZ	匹配 X 后直接跟着 Z
-X|Z	匹配 X 或 Z
+1. Pattern 类：  
+pattern 对象是一个正则表达式的编译表示。Pattern 类没有公共构造方法。要创建一个 Pattern 对象，你必须首先调用其公共静态编译方法，它返回一个 Pattern 对象。该方法接受一个正则表达式作为它的第一个参数。
 
-6.9.2 元字符
-元字符是一个预定义的字符。
-\d	匹配一个数字，是 [0-9] 的简写
-\D	匹配一个非数字，是 [^0-9] 的简写
-\s	匹配一个空格，是 [ \t\n\x0b\r\f] 的简写
-\S	匹配一个非空格
-\w	匹配一个单词字符（大小写字母、数字、下划线），是 [a-zA-Z_0-9] 的简写
-\W	匹配一个非单词字符（除了大小写字母、数字、下划线之外的字符），等同于 [^\w]
-6.9.3 限定符
-限定符定义了一个元素可以发生的频率。
-*	匹配 >=0 个，是 {0,} 的简写	X* 表示匹配零个或多个字母 X，.* 表示匹配任何字符串
-+	匹配 >=1 个，是 {1,} 的简写	X+ 表示匹配一个或多个字母 X
-?	匹配 1 个或 0 个，是 {0,1} 的简写	X? 表示匹配 0 个或 1 个字母 X
-{X}	只匹配 X 个字符	\d{3} 表示匹配 3 个数字，.{10} 表示匹配任何长度是 10 的字符串
-{X,Y}	匹配 >=X 且 <=Y 个	\d{1,4} 表示匹配至少 1 个最多 4 个数字
-*?	如果 ? 是限定符 * 或 + 或 ? 或 {} 后面的第一个字符，那么表示非贪婪模式（尽可能少的匹配字符），而不是默认的贪婪模式。
+2. Matcher 类：
+Matcher 对象是对输入字符串进行解释和匹配操作的引擎。与Pattern 类一样，Matcher 也没有公共构造方法。你需要调用 Pattern 对象的 matcher 方法来获得一个 Matcher 对象。
 
-6.9.4 分组和反向引用
-小括号 () 可以达到对正则表达式进行分组的效果。
-模式分组后会在正则表达式中创建反向引用。反向引用会保存匹配模式分组的字符串片断，这使得我们可以获取并使用这个字符串片断。
-在以正则表达式替换字符串的语法中，是通过 $ 来引用分组的反向引用，$0 是匹配完整模式的字符串（注意在 JavaScript 中是用 $& 表示）；$1 是第一个分组的反向引用；$2 是第二个分组的反向引用，以此类推。
+3. PatternSyntaxException：
+PatternSyntaxException 是一个非强制异常类，它表示一个正则表达式模式中的语法错误。
+
+#### &emsp;[6.9.1 常见匹配符号](#691常见匹配符号)
+
+`.` 匹配所有单个字符，除了换行符（Linux 中换行是 \n，Windows 中换行是 \r\n）  
+`^regex` 正则必须匹配字符串开头  
+`regex$` 正则必须匹配字符串结尾  
+`[abc]` 复选集定义，匹配字母 a 或 b 或 c  
+`[abc][vz]` 复选集定义，匹配字母 a 或 b 或 c，后面跟着 v 或 z  
+`[^abc]` 当插入符 ^ 在中括号中以第一个字符开始显示，则表示否定模式。此模式匹配所有字符，除了 a 或 b 或 c  
+`[a-d1-7]` 范围匹配，匹配字母 a 到 d 和数字从 1 到 7 之间，但不匹配 d1
+`XZ` 匹配 X 后直接跟着 Z  
+`X|Z` 匹配 X 或 Z  
+
+$\color{orange}{注意：}$  
+`[jpg|png]` 代表匹配 j 或 p 或 g 或 p 或 n 或 g 中的任意一个字符。  
+`(jpg|png)` 代表匹配 jpg 或 png。  
+因为[]代表或，而()代表分组。
+
+#### &emsp;[6.9.2 元字符](#692元字符)
+
+是一个预定义的字符。  
+\d 匹配一个数字，是`[0-9]`的简写  
+\D 匹配一个非数字，是`[^0-9]`的简写  
+\s 匹配一个空格，是`[ \t\n\x0b\r\f]`的简写  
+\S 匹配一个非空格  
+\w 匹配一个单词字符（大小写字母、数字、下划线），是`[a-zA-Z_0-9]`的简写  
+\W 匹配一个非单词字符（除了大小写字母、数字、下划线之外的字符），等同于 `[^\w]`  
+
+#### &emsp;[6.9.3 限定符](#693限定符)
+
+限定符定义了一个元素可以发生的频率。  
+`*` 匹配 >=0 个，是`{0,}`的简写。`X*`表示匹配零个或多个字母X，`.*`表示匹配任何字符串
+`+` 匹配 >=1 个，是`{1,}`的简写。`X+`表示匹配一个或多个字母X。
+`?` 匹配 1 个或 0 个，是`{0,1}`的简写。`X?`表示匹配0个或1个字母X。  
+`{X}`只匹配 X 个字符。`\d{3}`表示匹配3个数字，`.{10}`表示匹配任何长度是 10的字符串。  
+`{X,Y}` 匹配 >=X 且 <=Y 个。`\d{1,4}`表示匹配至少1个最多4个数字。  
+`*?` 如果?是限定符*或+或?或{}后面的第一个字符，那么表示非贪婪模式（尽可能少的匹配字符），而不是默认的贪婪模式。  
+
+#### &emsp;[6.9.4 分组和反向引用](#694分组和反向引用)
+
+小括号()可以达到对正则表达式进行分组的效果。  
+模式分组后会在正则表达式中创建反向引用。反向引用会保存匹配模式分组的字符串片断，这使得我们可以获取并使用这个字符串片断。  
+在以正则表达式替换字符串的语法中，是通过`$`来引用分组的反向引用，`$0`是匹配完整模式的字符串（注意在 JavaScript 中是用`$&`表示）；`$1`是第一个分组的反向引用；`$2`是第二个分组的反向引用，以此类推。
 
 示例：
+
+```java
 package com.wuxianjiezh.demo.regex;
 
 public class RegexTest {
@@ -1803,13 +1991,17 @@ public class RegexTest {
         System.out.println(Str.replaceAll(pattern, "$1$3")); // Hello, World.
     }
 }
+```
+
 上面的例子中，我们使用了 [.] 来匹配普通字符 . 而不需要使用 [\\.]。因为正则对于 [] 中的 .，会自动处理为 [\.]，即普通字符 . 进行匹配。
 
-6.9.4.1 仅分组但无反向引用
+##### &emsp;&emsp;[6.9.4.1 仅分组但无反向引用](#6941仅分组但无反向引用)
+
 当我们在小括号 () 内的模式开头加入 ?:，那么表示这个模式仅分组，但不创建反向引用。
 
 示例：
 
+```java
 package com.wuxianjiezh.regex;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -1829,7 +2021,11 @@ public class RegexTest {
 >>>>>
 jpg
 jpg
+```
+
 若源码改为：
+
+```java
 package com.wuxianjiezh.regex;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -1851,11 +2047,15 @@ jpg
 Exception in thread "main" java.lang.IndexOutOfBoundsException: No group 1
     at java.util.regex.Matcher.group(Matcher.java:538)
     at com.wuxianjiezh.regex.RegexTest.main(RegexTest.java:15)
-6.9.4.2 分组的反向引用副本
-Java 中可以在小括号中使用 ?<name> 将小括号中匹配的内容保存为一个名字为 name 的副本。
+```
+
+##### &emsp;&emsp;[6.9.4.2 分组的反向引用副本](#6942分组的反向引用副本)
+
+Java中可以在小括号中使用`?<name>`将小括号中匹配的内容保存为一个名字为 name的副本。
 
 示例：
 
+```java
 package com.wuxianjiezh.regex;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -1873,43 +2073,45 @@ public class RegexTest {
     }
 }
 >>>>>
-@wxj 
-wxj 
-wxj 
-6.9.5 否定先行断言（Negative lookahead）
-我们可以创建否定先行断言模式的匹配，即某个字符串后面不包含另一个字符串的匹配模式。
-否定先行断言模式通过 (?!pattern) 定义。比如，我们匹配后面不是跟着 "b" 的 "a"：
-a(?!b)
+@wxj
+wxj
+wxj
+```
 
-6.9.6 指定正则表达式的模式
-可以在正则的开头指定模式修饰符。
-(?i) 使正则忽略大小写。
-(?s) 表示单行模式（"single line mode"）使正则的 . 匹配所有字符，包括换行符。
-(?m) 表示多行模式（"multi-line mode"），使正则的 ^ 和 $ 匹配字符串中每行的开始和结束。
+#### &emsp;[6.9.5 否定先行断言](#695否定先行断言)
 
-6.9.7 Java中的反斜杠
+称为Negative lookahead。  
+我们可以创建否定先行断言模式的匹配，即某个字符串后面不包含另一个字符串的匹配模式。  
+否定先行断言模式通过 (?!pattern) 定义。比如，我们匹配后面不是跟着 "b" 的 "a"：a(?!b)
+
+#### &emsp;[6.9.6 指定正则表达式的模式](#696指定正则表达式的模式)
+
+可以在正则的开头指定模式修饰符。  
+(?i) 使正则忽略大小写。  
+(?s) 表示单行模式（"single line mode"）使正则的 . 匹配所有字符，包括换行符。  
+(?m) 表示多行模式（"multi-line mode"），使正则的 ^ 和 $ 匹配字符串中每行的开始和结束。  
+
+#### &emsp;[6.9.7 Java中的反斜杠](#697Java中的反斜杠)
+
 反斜杠 \ 在 Java 中表示转义字符，这意味着 \ 在 Java 拥有预定义的含义。
 
-这里例举两个特别重要的用法：
-在匹配 . 或 { 或 [ 或 ( 或 ? 或 $ 或 ^ 或 * 这些特殊字符时，需要在前面加上 \\，比如匹配 . 时，Java 中要写为 \\.，但对于正则表达式来说就是 \.。
-在匹配 \ 时，Java 中要写为 \\\\，但对于正则表达式来说就是 \\。
-注意：Java 中的正则表达式字符串有两层含义，首先 Java 字符串转义出符合正则表达式语法的字符串，然后再由转义后的正则表达式进行模式匹配。
+这里例举两个特别重要的用法：  
 
-6.9.8 易错点示例
-[jpg|png] 代表匹配 j 或 p 或 g 或 p 或 n 或 g 中的任意一个字符。
-(jpg|png) 代表匹配 jpg 或 png。
-因为[]代表或，而()代表分组。
+1. 在匹配 . 或 { 或 [ 或 ( 或 ? 或 $ 或 ^ 或 * 这些特殊字符时，需要在前面加上`\\`，比如匹配 . 时，Java 中要写为`\\`.，但对于正则表达式来说就是`\.`。  
+2. 在匹配 \ 时，Java 中要写为`\\\\`，但对于正则表达式来说就是`\\`。$\color{orange}{注意：}$Java 中的正则表达式字符串有两层含义，首先 Java 字符串转义出符合正则表达式语法的字符串，然后再由转义后的正则表达式进行模式匹配。
 
-6.9.9内置的字符串正则处理方法
-在 Java 中有四个内置的运行正则表达式的方法，分别是 matches()、split())、replaceFirst()、replaceAll()。注意 replace() 方法不支持正则表达式。
+#### &emsp;[6.9.8 内置的字符串正则处理方法](#698内置的字符串正则处理方法)
 
-方法	描述
-s.matches("regex")	当仅且当正则匹配整个字符串时返回 true
-s.split("regex")	按匹配的正则表达式切片字符串
-s.replaceFirst("regex", "replacement")	替换首次匹配的字符串片段
-s.replaceAll("regex", "replacement")	替换所有匹配的字符
+在 Java 中有四个内置的运行正则表达式的方法，分别是`matches()`、`split()`、`replaceFirst()`、`replaceAll()`。注意`replace()`方法不支持正则表达式。
+
+方法 描述  
+`s.matches("regex")` 当仅且当正则匹配整个字符串时返回`true`  
+`s.split("regex")` 按匹配的正则表达式切片字符串  
+`s.replaceFirst("regex", "replacement")` 替换首次匹配的字符串片段  
+`s.replaceAll("regex", "replacement")` 替换所有匹配的字符  
 示例代码：
 
+```java
 package com.wuxianjiezh.regex;
 public class RegexTest {
     public static void main(String[] args) {
@@ -1935,13 +2137,17 @@ j
 w-x j
 ----------
 w-x-j
+```
 
-6.9.10模式和匹配
-Java 中使用正则表达式需要用到两个类，分别为 java.util.regex.Pattern 和 java.util.regex.Matcher。
+#### &emsp;[6.9.9 模式和匹配](#699模式和匹配)
+
+Java中使用正则表达式需要用到两个类，分别为`java.util.regex.Pattern`和 `java.util.regex.Matcher`。
 第一步，通过正则表达式创建模式对象 Pattern。
 第二步，通过模式对象 Pattern，根据指定字符串创建匹配对象 Matcher。
 第三步，通过匹配对象 Matcher，根据正则表达式操作字符串。
 如：
+
+```java
 package com.wuxianjiezh.regex;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -1970,10 +2176,13 @@ public class RegexTest {
 Start index: 0 End index: 5 Hello
 Start index: 6 End index: 11 Regex
 Hello    Regex!
+```
 
-6.9.11中文的匹配
+#### &emsp;[6.9.10 中文的匹配](#6910中文的匹配)
+
 [\u4e00-\u9fa5]+ 代表匹配中文字。
 
+```java
 package com.wuxianjiezh.regex;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -1990,14 +2199,18 @@ public class RegexTest {
 }
 >>>>>
 閑人到人间
+```
 
-6.9.12 数字范围的匹配
+#### &emsp;[6.9.11 数字范围的匹配](#6911数字范围的匹配)
+
 比如，匹配 1990 到 2017。
 
-注意：这里有个新手易范的错误，就是正则 [1990-2017]，实际这个正则只匹配 0 或 1 或 2 或 7 或 9 中的任一个字符。
-正则表达式匹配数字范围时，首先要确定最大值与最小值，最后写中间值。
+注意：这里有个新手易范的错误，就是正则 [1990-2017]，实际这个正则只匹配 0 或 1 或 2 或 7 或 9 中的任一个字符。  
+正则表达式匹配数字范围时，首先要确定最大值与最小值，最后写中间值。  
 
 正确的匹配方式：
+
+```java
 package com.wuxianjiezh.regex;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -2018,9 +2231,13 @@ public class RegexTest {
 1990
 2010
 2017
+```
 
-6.9.13 img标签的匹配
-比如，获取图片文件内容，这里我们考虑了一些不规范的 img 标签写法：
+#### &emsp;[6.9.12 img标签的匹配](#6912img标签的匹配)
+
+比如，获取图片文件内容，这里我们考虑了一些不规范的img标签写法：
+
+```java
 package com.wuxianjiezh.regex;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -2041,9 +2258,13 @@ public class RegexTest {
 aaa.jpg
 bbb.png
 ccc.png
+```
 
-6.9.14 贪婪与非贪婪模式的匹配
+#### &emsp;[6.9.13 贪婪与非贪婪模式的匹配](#6913贪婪与非贪婪模式的匹配)
+
 比如，获取 div 标签中的文本内容：
+
+```java
 package com.wuxianjiezh.regex;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -2068,75 +2289,96 @@ public class RegexTest {
 }
 >>>>>
 文章标题</div><div>发布时间
+```
 
-第七章 数组（Arrays类）
-Java中数组以Arrays类的实例来处理。可以通过java.util包中的Arrays类中的方法来处理数组对象。值得注意的是这个Arrays类是在util中的，证明它本身是一个工具包，所以Arrays是一个工具类，用来处理数组，而不是数组本身，在Java中数组本身就有定义，不需要新的构造函数来构造，这一点与字符串对象是不同的。
+&emsp;  
 
-7.1一维数组
-7.1.1创建一维数组
-创建有两种方式：
-第一种方式：
-格式：数组元素类型[] 数组名;/数组元素类型 数组名[];（不推荐使用）
-数组名 = new 数组元素类型[数组元素个数];
-当使用new为数组分配内存时，整型数组种各个元素的初始值都是0。
-如：
+## [第七章 数组（Arrays类）](#第七章数组arrays类)
+
+Java中数组以`Arrays`类的实例来处理。可以通过`java.util`包中的`Arrays`类中的方法来处理数组对象。值得注意的是这个`Arrays`类是在`util`中的，证明它本身是一个工具包，所以`Arrays`是一个工具类，用来处理数组，而不是数组本身，在Java中数组本身就有定义，不需要新的构造函数来构造，这一点与字符串对象是不同的。
+
+### [7.1 一维数组](#71一维数组)
+
+#### &emsp;[7.1.1 创建一维数组](#711创建一维数组)
+
+创建有两种方式：  
+第一种方式：  
+$\color{aqua}{格式}$：数组元素类型[] 数组名;/数组元素类型 数组名[];（不推荐使用）  
+数组名 = new 数组元素类型[数组元素个数];  
+当使用new为数组分配内存时，整型数组种各个元素的初始值都是0。  
+如：  
+
+```java
 int[] arr;
 arr = new int[5];
+```
 
-第二种方式：
-格式：数组元素类型 数组名 = new 数组元素类型[数组元素个数];
+第二种方式：  
+$\color{aqua}{格式}$：数组元素类型 数组名 = new 数组元素类型[数组元素个数];
 
-7.1.2初始化一维数组
-初始化有两种方式：
-第一种方式：格式：数组元素类型 数组名[] = new 数组元素类型[]{值序列};
-第二种方式：格式：数组元素类型 数组名[] = {值序列};
+#### &emsp;[7.1.2 初始化一维数组](#712初始化一维数组)
+
+初始化有两种方式：  
+第一种方式：$\color{aqua}{格式}$：数组元素类型 数组名[] = new 数组元素类型[]{值序列};  
+第二种方式：$\color{aqua}{格式}$：数组元素类型 数组名[] = {值序列};  
 第一种是边创建数组对象边初始化，第二种是已经创立了数组对象再赋值。
 
-7.1.3使用一维数组
+#### &emsp;[7.1.3 使用一维数组](#713使用一维数组)
+
 通过：数组名[下标]使用，一般使用循环。
 
-7.2二维数组
-7.2.1创建二维数组
+### [7.2 二维数组](#72二维数组)
+
+#### &emsp;[7.2.1 创建二维数组](#721创建二维数组)
+
 创建有两种方式：
-第一种方式：
-格式：数组元素类型[][] 数组名;/数组元素类型 数组名[][];（不推荐使用）
+
+1. $\color{aqua}{格式}$：数组元素类型[][] 数组名;/数组元素类型 数组名[][];（不推荐使用）  
 数组名 = new 数组元素类型[行元素个数][列元素个数];
 
-第二种方式：
-为每一维数组分配空间。
-格式：数组元素类型 数组名 = new 数组元素类型[][];
-数组名[0] = new 数组元素类型[行元素个数];
-数组名[1] = new 数组元素类型[列元素个数];
+2. 为每一维数组分配空间。  
+$\color{aqua}{格式}$：数组元素类型 数组名 = new 数组元素类型[][];  
+数组名[0] = new 数组元素类型[行元素个数];  
+数组名[1] = new 数组元素类型[列元素个数];  
 
-7.2.2初始化二维数组
+#### &emsp;[7.2.2 初始化二维数组](#722初始化二维数组)
+
 初始化有三种方式：
-第一种方式：格式：数组元素类型 数组名[] = new 数组元素类型[][]{值序列};
-第二种方式：格式：数组元素类型 数组名[][] = {值序列};
-第一种是边创建数组对象边初始化，第二种是已经创立了数组对象再赋值。
-第三种方式：格式：数组名[行坐标][列坐标] = 数据；
 
-7.3数组操作
-7.3.1数组遍历
-一般使用循环。可以通过数组对象的length属性获得数组长度。
-一维数组就使用一层循环，如果是n维数组就使用n层循环。
-如：
+1. ：$\color{aqua}{格式}$：数组元素类型 数组名[] = new 数组元素类型[][]{值序列};
+2. ：$\color{aqua}{格式}$：数组元素类型 数组名[][] = {值序列};
+第一种是边创建数组对象边初始化，第二种是已经创立了数组对象再赋值。
+3. $\color{aqua}{格式}$：数组名[行坐标][列坐标] = 数据；
+
+### [7.3 数组操作](#73数组操作)
+
+#### &emsp;[7.3.1 数组遍历](#731数组遍历)
+
+一般使用循环。可以通过数组对象的length属性获得数组长度。  
+一维数组就使用一层循环，如果是n维数组就使用n层循环。  
+如：  
+
+```java
 public class Trap{
-public statci void main(String[] args){
-int b[][] = new int[][]{{1},{2,3},{4,5,6}};
-for(int k=0; k<b.length; k++){
-for(int c=0; c<b[k].length; c++){
-System.out.print(b[k][c]);
-}
-System.out.println();
-}
-}
+    public statci void main(String[] args){
+        int b[][] = new int[][]{{1},{2,3},{4,5,6}};
+        for(int k=0; k<b.length; k++){
+            for(int c=0; c<b[k].length; c++){
+                System.out.print(b[k][c]);
+            }
+            System.out.println();
+        }
+    }
 }
 >>>>>
 1
 23
 456
+```
 
-也可以使用foreach语句循环输出：
+也可以使用foreach语句循环输出：  
+
+```java
 public class Main{ //创建类
     public static void main(String[] args){ //主方法
         int arr[][] = new int[][]{{4,3},{2,1}}; //定义数组对象
@@ -2156,31 +2398,40 @@ public class Main{ //创建类
         }
     }
 }
-7.3.2替换元素（fill()）
-可以通过Arrays类的fill()静态方法。由于其方法本身的限制，所以一般用于给整个数组初始化同一个值。
-格式：Arrays.fill(数组名,同数组类型一致的数值);
-将数组元素全部替换为该数值。
-fill(数组名,开始填充元素索引,结束填充元素索引,同数组类型一致的数值);
+```
 
-7.3.3数组排序（sort()）
-可以通过Arrays类的sort()静态方法。是按照字典顺序进行升序排序。
-格式：Arrays.sort(数组名);
+#### &emsp;[7.3.2 替换元素](#732替换元素)
+
+可以通过`Arrays`类的`fill()`静态方法。由于其方法本身的限制，所以一般用于给整个数组初始化同一个值。  
+$\color{aqua}{格式}$：Arrays.fill(数组名,同数组类型一致的数值);  
+将数组元素全部替换为该数值。  
+$\color{aqua}{格式}$:Arrays.fill(数组名,开始填充元素索引,结束填充元素索引,同数组类型一致的数值);
+
+#### &emsp;[7.3.3 数组排序](#733数组排序)
+
+可以通过`Arrays`类的`sort()`静态方法。是按照字典顺序进行升序排序。  
+$\color{aqua}{格式}$：  
+Arrays.sort(数组名);  
 Arrays.sort(数组名,开始排序索引,结束排序索引);
 
-7.3.4数组复制（copyOf()、copyOfRange()）
-copyOf()格式：copyOf(复制目标数组，复制新数组的长度);
-如果新数组长度小于原数组就进行截取，如果大于就使用0填充。
-copyOfRange()格式：copyOfRange(复制目标数组，开始复制索引，结束复制索引);
+#### &emsp;[7.3.4 数组复制](#734数组复制)
+
+`copyOf()`$\color{aqua}{格式}$：copyOf(复制目标数组，复制新数组的长度);  
+如果新数组长度小于原数组就进行截取，如果大于就使用0填充。  
+`copyOfRange()`$\color{aqua}{格式}$：copyOfRange(复制目标数组，开始复制索引，结束复制索引);  
 结束复制索引可以大于数组长度，且结束索引复制不包括该索引所在数值。
 
-7.3.5数组查询（binarySearch()）
-格式：binarySearch(搜索数组,搜索值);
-binarySearch()使用二分法进行搜索。插入点是索引键将要插入数组的那一点，即第一个大于该键的元素的索引。一般使用为了方便需要先使用sort()方法排序。
-[1]搜索值是数组元素，从0开始计数，得搜索值的索引值；
-[2]搜索值不是数组元素，且在数组范围内，从1开始计数，得“-插入点索引值”；
-[3]搜索值不是数组元素，且大于数组内元素，索引值为–(length + 1);
-[4]搜索值不是数组元素，且小于数组内元素，索引值为–1。
-如：
+#### &emsp;[7.3.5 数组查询](#735数组查询)
+
+`binarySearch()`$\color{aqua}{格式}$：binarySearch(搜索数组,搜索值);  
+`binarySearch()`使用二分法进行搜索。插入点是索引键将要插入数组的那一点，即第一个大于该键的元素的索引。一般使用为了方便需要先使用`sort()`方法排序。  
+[1]搜索值是数组元素，从0开始计数，得搜索值的索引值；  
+[2]搜索值不是数组元素，且在数组范围内，从1开始计数，得“-插入点索引值”；  
+[3]搜索值不是数组元素，且大于数组内元素，索引值为–(length + 1);  
+[4]搜索值不是数组元素，且小于数组内元素，索引值为–1。  
+如：  
+
+```java
  int arr [] =newint[]{1,3,4,5,8,9};
 Arrays.sort(arr);
 int index1 = Arrays.binarySearch(arr,6);
@@ -2190,13 +2441,16 @@ int index4 = Arrays.binarySearch(arr,10);
 System.out.println("index1 = "+ index1 +", index2 = " + index2 +
 ", index3 = " + index3 +", index4 = "+ index4);
 >>>>>index1= -5, index2 = 2, index3 = -1, index4 = -7
- 
-格式：bianrySearch(搜索数组,开始搜索索引,结束搜索索引,要搜索的元素);
-[1]该搜索键在范围内，且是数组元素，由0开始计数，得搜索值的索引值；
-[2]该搜索键在范围内，但不是数组元素，由1开始计数，得“ - 插入点索引值”；
-[3]该搜索键不在范围内，且小于范围（数组）内元素，返回–(fromIndex + 1)；
-[4]该搜索键不在范围内，且大于范围（数组）内元素，返回–(toIndex + 1)。
+```
+
+$\color{aqua}{格式}$：bianrySearch(搜索数组,开始搜索索引,结束搜索索引,要搜索的元素);  
+[1]该搜索键在范围内，且是数组元素，由0开始计数，得搜索值的索引值；  
+[2]该搜索键在范围内，但不是数组元素，由1开始计数，得“ - 插入点索引值”；  
+[3]该搜索键不在范围内，且小于范围（数组）内元素，返回–(fromIndex + 1)；  
+[4]该搜索键不在范围内，且大于范围（数组）内元素，返回–(toIndex + 1)。  
 如：
+
+```java
 int arr [] =newint[]{1,3,4,5,8,9};
 System.out.println(arr.length+1);
 Arrays.sort(arr);
@@ -2209,36 +2463,46 @@ System.out.println("index5 = "+ index5 +", index6 = " + index6 +
  ", index7 = " + index7 +", index8 = "+ index8 +
 ", index9 = " + index9);
 >>>>>index5 = -5, index6 = 2,index7 = -2, index8 = -4, index9 = -2
+```
 
-第八章 数字处理类
+&emsp;  
+
+## [第八章 数字处理类](#第八章数字处理类)
+
 Java中为了处理数学、随机、金融等数字问题，封装了一些类。
 
-8.1 DecimalFormat类（格式化数字）
-Java主要对浮点型数据进行数字格式化，包括double和float型。Java未格式化数据遵循以下原则：
-绝对值在e-3到e7之间的数值以常规小数形式表示。在此之外以科学计数法表示。
-除此之外可以使用DecimalFormat类：java.text.DecimalFormat。
-该类是NumberFormat类的子类，用于格式化十进制数字，可以转换为整数，浮点数，百分数等。可以向其传入数字格式，格式化数字可以利用该类中的一些特殊字符造成一个格式化模板，使数字按照一定模式进行匹配。
+### [8.1 DecimalFormat类（格式化数字）](#81DecimalFormat类（格式化数字）)
+
+Java主要对浮点型数据进行数字格式化，包括`double`和`float`型。Java未格式化数据遵循以下原则：  
+绝对值在e-3到e7之间的数值以常规小数形式表示。在此之外以科学计数法表示。  
+除此之外可以使用`DecimalFormat`类：`java.text.DecimalFormat`。  
+该类是`NumberFormat`类的子类，用于格式化十进制数字，可以转换为整数，浮点数，百分数等。可以向其传入数字格式，格式化数字可以利用该类中的一些特殊字符造成一个格式化模板，使数字按照一定模式进行匹配。
 
 特殊符号：
-0 一个数字，如果该位不存在数字就显示0。
-# 一个数字，不包括 0。
-. 小数的分隔符的占位符。
-, 分组分隔符的占位符。
-; 分隔格式。
-- 缺省负数前缀。
-% 乘以 100 和作为百分比显示。
-\u2030 乘以 1000 和作为千进制显示。
-\u00A4 本符号放置在数字的前缀或者后缀，作为货币记号。
-X 前缀或后缀中使用的任何其它字符，用来引用前缀或后缀中的特殊字符。
-E 分隔科学记数法中的尾数和指数。
-' 转义字符，当出现特殊符号，放在前面以转义。
+
+0 一个数字，如果该位不存在数字就显示0。  
+\# 一个数字，不包括 0。  
+. 小数的分隔符的占位符。  
+, 分组分隔符的占位符。  
+; 分隔格式。  
+\- 缺省负数前缀。  
+% 乘以 100 和作为百分比显示。  
+\u2030 乘以 1000 和作为千进制显示。  
+\u00A4 本符号放置在数字的前缀或者后缀，作为货币记号。  
+X 前缀或后缀中使用的任何其它字符，用来引用前缀或后缀中的特殊字符。  
+E 分隔科学记数法中的尾数和指数。  
+' 转义字符，当出现特殊符号，放在前面以转义。  
 
 类的使用方法：
-①format()方法：
-格式：
-DecimalFormat 格式模板变量名 = new DecimalFormat(格式模板字符串);
-String 保存格式化变量名 = 格式模板变量名.format(目标数据);
+
+#### &emsp;[8.1.1 format()方法](#811format方法)
+
+$\color{aqua}{格式}$：
+DecimalFormat 格式模板变量名 = new DecimalFormat(格式模板字符串);  
+String 保存格式化变量名 = 格式模板变量名.format(目标数据);  
 如：
+
+```java
 DecimalFormat df1 = new DecimalFormat("0.0");
 　　DecimalFormat df2 = new DecimalFormat("#.#");
 　　DecimalFormat df3 = new DecimalFormat("000.000");
@@ -2247,17 +2511,20 @@ DecimalFormat df1 = new DecimalFormat("0.0");
 　　System.out.println(df2.format(12.34));
 　　System.out.println(df3.format(12.34));
 　　System.out.println(df4.format(12.34));
->>>>>　
+>>>>>
 12.3
 12.3
 012.340
 12.34
+```
 
-格式：
-String 保存格式化变量名 = new DecimalFormat(格式模板字符串).format(目标数据)
+$\color{aqua}{格式}$：  
+String 保存格式化变量名 = new DecimalFormat(格式模板字符串).format(目标数据)  
 如；
-importjava.text.DecimalFormat;    
-publicclassTestNumberFormat{   
+
+```java
+importjava.text.DecimalFormat;
+publicclassTestNumberFormat{
 　　publicstaticvoidmain(String[]args){  
 　　　　double pi=3.1415927;　//圆周率  
 　　　　//取一位整数  
@@ -2281,7 +2548,11 @@ publicclassTestNumberFormat{
 　　　　System.out.println(newDecimalFormat("每秒###\米。").format(c));  
 　　}  
 }
-②setGroupingSize()方法
+```
+
+#### &emsp;[8.1.2 setGroupingSize()方法](#812setGroupingSize()方法)
+
+```java
 package test;
 import java.text.DecimalFormat;
 public class DecimalMethod {
@@ -2298,127 +2569,130 @@ public class DecimalMethod {
 >>>>>
 将数字以每两个数字分组：12,34,56.789
 不允许数组分组：123456.789
+```
 
-8.2 Math类（数学运算）
-Math类提供了许多数学函数方法，被定义为static形式，可以通过Math.数学方法的形式调用。
+### [8.2 Math类（数学运算）](#82Math类（数学运算）)
 
-8.2.1数学常量
-Math.PI：圆周率；
+`Math`类提供了许多数学函数方法，被定义为`static`形式，可以通过`Math.`数学方法的形式调用。
+
+#### &emsp;[8.2.1 数学常量](#821数学常量)
+
+Math.PI：圆周率；  
 Math.E：自然对数；
 
-8.2.2常用数学方法
-8.2.2.1三角函数
-sin(角度/弧度)：正弦函数；
-cos(角度/弧度)：余弦函数；
-tan(角度/弧度)：正切函数；
-asin(角度/弧度)：反正弦函数；
-acos(角度/弧度)：反余弦函数；
-atan(角度/弧度)：反正切函数；
-toRadians(角度)：将角度转换为弧度函数；
-toDegrees(弧度)：将弧度转换为角度函数；
-三角函数参数和返回值都是double类型的。
+#### &emsp;[8.2.2 常用数学方法](#822常用数学方法)
 
-8.2.2.2指数函数
-exp(值)：取e的参数值次方，即取e^值；
-log(值)：取自然对数，即取ln值；
-log10(值)：取底数为10的对数；
-sqrt(值)：取值的平方根，值不能为负数；
-cbrt(值)：取值的立方根；
-pow(值a,值b)：取a的b次方；
-指数函数的参数和返回值也都是double类型的。
+##### &emsp;&emsp;[8.2.2.1 三角函数](#8221三角函数)
 
-8.2.2.3取整函数
-ceil(值)：返回大于等于参数的最小整数；
-floor(值)：返回小于等于参数的最大整数；
-rint(值)：返回与参数最接近的整数，如果两个同为整数且同样接近，取偶数。
-这三个方法的参数和返回值都是double类型。
+`sin(角度/弧度)`：正弦函数；  
+`cos(角度/弧度)`：余弦函数；  
+`tan(角度/弧度)`：正切函数；  
+`asin(角度/弧度)`：反正弦函数；  
+`acos(角度/弧度)`：反余弦函数；  
+`atan(角度/弧度)`：反正切函数；  
+`toRadians(角度)`：将角度转换为弧度函数；  
+`toDegrees(弧度)`：将弧度转换为角度函数；  
+三角函数参数和返回值都是`double`类型的。  
 
-round(值)：将float型参数加上0.5后返回与参数最接近的int型整数。
-round(值)：将double型参数加上0.5后返回与参数最接近的long型整数。
+##### &emsp;&emsp;[8.2.2.2 指数函数](#8222指数函数)
 
-8.2.2.4最值绝对值函数
-max(值a,值b)：取ab之间的最大值，a，b和返回值都是double型。
-min(值a,值b)：取ab之间的最小值，a，b是什么类型返回值就是什么类型，可以为int、long、float和double型数据。
-abs(值)：取值的绝对值，参数是什么类型返回值就是什么类型。
+`exp(值)`：取e的参数值次方，即取e^值；  
+`log(值)`：取自然对数，即取ln值；  
+`log10(值)`：取底数为10的对数；  
+`sqrt(值)`：取值的平方根，值不能为负数；  
+`cbrt(值)`：取值的立方根；  
+`pow(值a,值b)`：取a的b次方；  
+指数函数的参数和返回值也都是`double`类型的。  
 
-8.2.3随机数
-用于产生随机数字，默认生成大于等于0.0且小于1.0的double型随机数。
-(int)(Math.random()*n)>>>>>返回大于等于0且小于n的随机数；
-m+(int)(Math.random()*n)>>>>>返回大于等于m且小于m+n的随机数；
-(char)('a'+Math.random()*('z'-'a'+1))>>>>>随机生成a到z的字符；
-(char)('A'+Math.random()*('R'-'A'+1))>>>>>随机生成A到R的字符；
-8.2.4大整数运算（BigInteger类）
-格式：BigInteger 变量名 = new BigInteger(字符串);
-使用 变量名.方法名()的格式对大整数进行运算。
+##### &emsp;&emsp;[8.2.2.3 取整函数](#8223取整函数)
 
-add(值)：加法运算；
-subtract(值)：减法运算；
-multiply(值)：乘法运算；
-divide(值)：除法运算；
-remainder(值)：取余运算；
-divideAndRemainder(值)：用BigInteger数组返回余数和商，结果数组中第一个值为商，第二个值为余数；
-其参数值和返回值都是BigInteger类。
+`ceil(值)`：返回大于等于参数的最小整数；  
+`floor(值)`：返回小于等于参数的最大整数；  
+`rint(值)`：返回与参数最接近的整数，如果两个同为整数且同样接近，取偶数。  
+这三个方法的参数和返回值都是double类型。  
 
-pow(整数值)：对参数进行整数值次方操作；
-negate()：取反操作；
-shiftLeft(n)：将数字左移n位，如果n是负数则右移；
-shiftRight(n)：将数字右移n位，如果n为负数则左移；
+`round(值)`：将float型参数加上0.5后返回与参数最接近的int型整数。  
+`round(值)`：将double型参数加上0.5后返回与参数最接近的long型整数。  
 
-and(值)：做与操作；
-or(值)：做或操作；
-max(值)：返回较大值；
-min(值)：返回较小值；
-其参数值和返回值都是BigInteger类。
+##### &emsp;&emsp;[8.2.2.4 最值绝对值函数](#8224最值绝对值函数)
 
-compareTo(值)：做数字比较操作，返回值int类型；
-equals(值)：当参数值为BigInteger类型的数字且数值相等时，才返回true，否则返回false。
+`max(值a,值b)`：取ab之间的最大值，a，b和返回值都是`double`型。  
+`min(值a,值b)`：取ab之间的最小值，a，b是什么类型返回值就是什么类型，可以为`int`、`long`、`float`和`double`型数据。  
+`abs(值)`：取值的绝对值，参数是什么类型返回值就是什么类型。  
 
-8.2.5大小数运算（BigDeciaml类）
-格式：BigDeciaml 变量名 = new BigDeciaml(字符串);
-/BigDeciaml 变量名 = new BigDeciaml(双精度浮点数);
+#### &emsp;[8.2.3 随机数](#823随机数)
+
+用于产生随机数字，默认生成大于等于0.0且小于1.0的`double`型随机数。  
+`(int)(Math.random()*n)`>>>>>返回大于等于0且小于n的随机数；  
+`m+(int)(Math.random()*n)`>>>>>返回大于等于m且小于m+n的随机数；  
+`(char)('a'+Math.random()*('z'-'a'+1))`>>>>>随机生成a到z的字符；  
+`(char)('A'+Math.random()*('R'-'A'+1))`>>>>>随机生成A到R的字符；
+
+#### &emsp;[8.2.4 大整数运算（BigInteger类）](#824大整数运算（BigInteger类）)
+
+$\color{aqua}{格式}$：BigInteger 变量名 = new BigInteger(字符串);  
+使用 变量名.方法名()的格式对大整数进行运算。  
+
+`add(值)`：加法运算；  
+`subtract(值)`：减法运算；  
+`multiply(值)`：乘法运算；  
+`divide(值)`：除法运算；  
+`remainder(值)`：取余运算；  
+`divideAndRemainder(值)`：用`BigInteger`数组返回余数和商，结果数组中第一个值为商，第二个值为余数；  
+其参数值和返回值都是`BigInteger`类。  
+
+`pow(整数值)`：对参数进行整数值次方操作；  
+`negate()`：取反操作；  
+`shiftLeft(n)`：将数字左移n位，如果n是负数则右移；  
+`shiftRight(n)`：将数字右移n位，如果n为负数则左移；  
+
+`and(值)`：做与操作；  
+`or(值)`：做或操作；  
+`max(值)`：返回较大值；  
+`min(值)`：返回较小值；  
+其参数值和返回值都是`BigInteger`类。  
+
+`compareTo(值)`：做数字比较操作，返回值int类型；  
+`equals(值)`：当参数值为BigInteger类型的数字且数值相等时，才返回`true`，否则返回`false`。
+
+#### &emsp;[8.2.5 大小数运算（BigDeciaml类）](#825大小数运算（BigDeciaml类）)
+
+$\color{aqua}{格式}$：BigDeciaml 变量名 = new BigDeciaml(字符串);  
+/BigDeciaml 变量名 = new BigDeciaml(双精度浮点数);  
 使用 变量名.方法名()的格式对大小数进行运算。
 
-add(值)：加法运算；
-subtract(值)：减法运算；
-multiply(值)：乘法运算；
-divide(除数,商小数点后的位数,近似处理模式)：除法运算；
+`add(值)`：加法运算；  
+`subtract(值)`：减法运算；  
+`multiply(值)`：乘法运算；  
+`divide(除数,商小数点后的位数,近似处理模式)`：除法运算；  
 
-divide()的处理模式：
-BigDecimal.ROUND_UP：商的最后一位如果大于0，就向前进位，无论负数正数都是如此；
-BigDecimal.ROUND_DOWN：商的最后一位无论什么数字都省略；
-BigDecimal.ROUND_CEILING：商如果是正数就按照ROUND_UP模式处理，如果是负数就是按照ROUND_DOWN模式处理，这种处理模式是商的近似值使用大于或者等于实际值。
-BigDecimal.ROUND_FLOOR：商如果是正数就按照ROUND_DOWN模式处理，如果是负数就是按照ROUND_UP模式处理，这种处理模式是商的近似值使用小于于或者等于实际值。
-BigDecimal.ROUND_HALF_DOWN：对商进行四舍五入操作，如果商小于等于5就舍弃，如果大于5就进位； 如：7.5>>>>>7
-BigDecimal.ROUND_HALF_UP：对商进行四舍五入操作，如果商小于5就舍弃，如果大于等于5就进位； 如：7.5>>>>>8
-BigDecimal.ROUND_HALF_EVEN：如果商的倒数第二位是奇数就按照ROUND_HALF_UP处理，如果是偶数，就按照HALF_DOWN处理；
+`divide()`的处理模式：  
+`BigDecimal.ROUND_UP`：商的最后一位如果大于0，就向前进位，无论负数正数都是如此；  
+`BigDecimal.ROUND_DOWN`：商的最后一位无论什么数字都省略；  
+`BigDecimal.ROUND_CEILING`：商如果是正数就按照ROUND_UP模式处理，如果是负数就是按照`ROUND_DOWN`模式处理，这种处理模式是商的近似值使用大于或者等于实际值。  
+`BigDecimal.ROUND_FLOOR`：商如果是正数就按照`ROUND_DOWN`模式处理，如果是负数就是按照`ROUND_UP`模式处理，这种处理模式是商的近似值使用小于于或者等于实际值。  
+`BigDecimal.ROUND_HALF_DOWN`：对商进行四舍五入操作，如果商小于等于5就舍弃，如果大于5就进位； 如：7.5>>>>>7  
+`BigDecimal.ROUND_HALF_UP`：对商进行四舍五入操作，如果商小于5就舍弃，如果大于等于5就进位； 如：7.5>>>>>8  
+`BigDecimal.ROUND_HALF_EVEN`：如果商的倒数第二位是奇数就按照`ROUND_HALF_UP`处理，如果是偶数，就按照`HALF_DOWN`处理；  
 
-其参数值和返回值都是BigInteger类。
+其参数值和返回值都是`BigInteger`类。
 
-8.3 Random类
-除了使用Math类中的random()方法外，还可以使用java.util.Random类。实例化一个Random对象创建一个随机数生成器。
-格式：Random 随机数生成器名 = new Random();
-这种创建方式下Java编译器将以系统当前时间作为随机数生成器的种子，来产生随机数，如果运行速度过快也可能出现同样的随机数。
-也可以传入随机数生成器的种子作为函数参数。
+### [8.3 Random类](#83Random类)
 
-还有一些返回值格式方法，以
-随机数生成器名.方法名(); 的方式调用：
-nextInt()：返回一个随机整数；
-nextInt(整数n)：返回一个大于等于0小于n的随机整数；
-nextLong()：返回一个随机长整型数；
-nextBoolean()：返回一个随机布尔值；
-nextFloat()：返回一个随机单精度浮点型值；
-nextDouble()：返回一个随机双精度浮点型；
-nextGaussian()：返回一个概率密度为高斯分布的双精度值。
+除了使用Math类中的random()方法外，还可以使用java.util.Random类。实例化一个Random对象创建一个随机数生成器。  
+格式：Random 随机数生成器名 = new Random();  
+这种创建方式下Java编译器将以系统当前时间作为随机数生成器的种子，来产生随机数，如果运行速度过快也可能出现同样的随机数。  
+也可以传入随机数生成器的种子作为函数参数。  
 
- -->
-
-&emsp;  
-
-## [第七章 数组（Arrays类）](#第七章数组arrays类)
-
-&emsp;  
-
-## [第八章 数字处理类](#第八章数字处理类)
+还有一些返回值格式方法，以  
+随机数生成器名.方法名(); 的方式调用：  
+`nextInt()`：返回一个随机整数；  
+`nextInt(整数n)`：返回一个大于等于0小于n的随机整数；  
+`nextLong()`：返回一个随机长整型数；  
+`nextBoolean()`：返回一个随机布尔值；  
+`nextFloat()`：返回一个随机单精度浮点型值；  
+`nextDouble()`：返回一个随机双精度浮点型；  
+`nextGaussian()`：返回一个概率密度为高斯分布的双精度值。  
 
 &emsp;  
 
@@ -2496,10 +2770,12 @@ public class GrandChild extends Child{
 
 #### &emsp;[9.1.2 final方法与类](#912final方法与类)
 
-1. `final`参数  
+##### &emsp;&emsp;[9.1.2.1 final参数](#9121final参数)
+
 如果声明一个final参数，就代表其参数不能被改变。也就是说传入的参数只能被读取，不能被修改。
 
-2. `final`方法  
+##### &emsp;&emsp;[9.1.2.2 final方法](#9122final方法)
+
 父类中的`final`方法可以被子类继承，但是不能被子类重写。同时`final`方法执行等级高于非`final`方法。
 声明`final`方法的主要目的是防止该方法的内容被修改。
 已知如果一个父类的一个方法被设置为`private`权限，那么子类无法访问该方法。既然无法访问，那就更无法修改，所以一个定义为`private`的方法隐式地指定为`final`权限。
@@ -2513,7 +2789,8 @@ public class Test{
 }
 ```
 
-3. `final`类  
+##### &emsp;&emsp;[9.1.2.3 final类](#9123final类)
+
 final类不能被继承，没有类能够继承final类的任何特性。
 实例
 public final class Test {
@@ -2524,33 +2801,37 @@ public final class Test {
 
 使用`class`关键字定义类时，就开始使用继承，因为在Java中所有的类都继承了`java.lang.Object`类。`Object`类比较特殊，是所有类的父类，是Java类层的最高层。
 
-当创建一个类除非是显示继承其他类，否则就是由java.lang.Object类继承而来的，如String类等，自定义的类也是继承Object类，由于全部的类都是Object类的子类，所以省略extends Object关键字。
+当创建一个类除非是显示继承其他类，否则就是由`java.lang.Object`类继承而来的，如`String`类等，自定义的类也是继承`Object`类，由于全部的类都是`Object`类的子类，所以省略`extends Object`关键字。
 
-由于所有的类都是Object类的子类，所以所有类都可以重写Object类中的方法。
-但是getClass()方法、notify()方法、notifyAll()方法、wait()方法等方法不可被重写，因为其为final类型，即用final关键字修饰，不可修改与被继承。
+由于所有的类都是`Object`类的子类，所以所有类都可以重写`Object`类中的方法。  
+但是`getClass()`方法、`notify()`方法、`notifyAll()`方法、`wait()`方法等方法不可被重写，因为其为`final`类型，即用`final`关键字修饰，不可修改与被继承。
 
 #### &emsp;[9.2.1 getClass()](#921getClass())
 
-是Object类的方法，返回对象执行时的Class实例，然后使用此实例调用getName()方法可以获取改类的名称
-语法：getClass().getName();
+是`Object`类的方法，返回对象执行时的`Class`实例，然后使用此实例调用`getName()`方法可以获取改类的名称。  
+$\color{aqua}{格式}$：getClass().getName();
 
 #### &emsp;[9.2.2 toString()](#922toString())
 
-将一个对象返回为字符串的形式，将返回一个String实例，实际使用时会重写toString方法，为对象提供一个特定的输出模式，当这个类转换为字符串或字符串连接时会自动调用重写的方法。
-如：
+将一个对象返回为字符串的形式，将返回一个`String`实例，实际使用时会重写`toString`方法，为对象提供一个特定的输出模式，当这个类转换为字符串或字符串连接时会自动调用重写的方法。  
+如：  
+
+```java
 public class Newclass{
-public String toString(){
-return "在"+getClass().getName()+"类中重写了toString()方法";
+    public String toString(){
+        return "在"+getClass().getName()+"类中重写了toString()方法";
+    }
+    public static void main(String[] args){
+        System.out.println(new Newclass());
+    }
 }
-public static void main(String[] args){
-System.out.println(new Newclass());
-}
-}
-在主函数中打印创建的Newclass对象，应该自动调用该对象的toString()方法，因为在这个对象中重写了toString方法，所以返回的是一串自定义字符串，并写上了当前实例化的类的类名。
+```
+
+在主函数中打印创建的`Newclass`对象，应该自动调用该对象的`toString()`方法，因为在这个对象中重写了`toString`方法，所以返回的是一串自定义字符串，并写上了当前实例化的类的类名。
 
 #### &emsp;[9.2.3 equals()](#923equals())
 
-在已经定义过的类，如String类、Number类中equals()方法不同于==运算符比较两边的引用，而是比较两边的内容，实际上equals()方法在Object类中默认的功能就是比较其引用是否相同，而在已经包装好的String类等中重写了该方法变为比较内容，但是在自定义的类中，没有定义过这种功能，所以在自定义类中需要同样地重写该函数。
+在已经定义过的类，如`String`类、`Number`类中`equals()`方法不同于==运算符比较两边的引用，而是比较两边的内容，实际上`equals()`方法在Object类中默认的功能就是比较其引用是否相同，而在已经包装好的`String`类等中重写了该方法变为比较内容，但是在自定义的类中，没有定义过这种功能，所以在自定义类中需要同样地重写该函数。
 
 ### [9.3 转型](#93转型)
 
@@ -2558,76 +2839,87 @@ System.out.println(new Newclass());
 
 #### &emsp;[9.3.1 向上转型](#931向上转型)
 
+```java
 class Father{
-public static void function1(Father f){
-}
+    public static void `function1`(Father f){
+    }
 }
 public class Son extends Father{
-public static void main(String args[]){
-Son s = new Son();
-function1(s);
+    public static void main(String args[]){
+        Son s = new Son();
+        function1(s);
+    }
 }
-}
-在这里定义了两个类Father和Son类，Son类继承Father类，Father类中定义了function1的方法，其传递的参数是Father类型的。由于Son类继承Father类，所以也可以在Son类中调用其function1的方法。但是值得注意的是在Son类中调用function1的方法传入的参数不是其定义时的Father类型的参数，而是Son类型的。
-这种把子类对象赋值给父类类型的变量的技术就是向上转型。
-为什么可以实现向上转型，这就是抽象和具体的转换，抽象就是一类事物所共有的特征，具体就是在共有的特征外还有自己独有的特征。如果一个对象是一个类的子类，那就满足一个类的所有共有特征，还有自己独有的特征，所以是符合特征的，因为抽象的范围比具体的范围更广。由于具体向抽象转型，所以其总是安全的。
-这就是多态的思想，在父类上定义所有子类所共有的特征，然后传入子类对象仍能使用，因为子类符合父类标准。
+```
+
+在这里定义了两个类`Father`和`Son`类，`Son`类继承`Father`类，`Father`类中定义了`function1`的方法，其传递的参数是`Father`类型的。由于`Son`类继承`Father`类，所以也可以在`Son`类中调用其`function1`的方法。但是值得注意的是在`Son`类中调用`function1`的方法传入的参数不是其定义时的`Father`类型的参数，而是`Son`类型的。  
+这种把子类对象赋值给父类类型的变量的技术就是向上转型。  
+为什么可以实现向上转型，这就是抽象和具体的转换，抽象就是一类事物所共有的特征，具体就是在共有的特征外还有自己独有的特征。如果一个对象是一个类的子类，那就满足一个类的所有共有特征，还有自己独有的特征，所以是符合特征的，因为抽象的范围比具体的范围更广。由于具体向抽象转型，所以其总是安全的。  
+这就是多态的思想，在父类上定义所有子类所共有的特征，然后传入子类对象仍能使用，因为子类符合父类标准。  
 
 #### &emsp;[9.3.2 向下转型](#932向下转型)
 
-向下转型就是由抽象到具体，但是这种往往会出现问题，如鸽子是鸟，但是鸟不满足鸽子的独有特征。所以可以说子类对象总是父类的实例，但是不能说父类对象总是子类的实例。
-如果想向下转型，就必须使用显示类型转换：
-格式：(目标类名)变量名;
-但是这种向下转型往往有不安全的问题。所以就出现了Java的泛型编程。
-为什么需要向下转型？就是因为在实践中虽然将一堆不同类型的类都归于一组，但是获得了抽象性，也丢失了可扩展性。所以向下转型就可以强行获取到原来子类独有的方法。
+向下转型就是由抽象到具体，但是这种往往会出现问题，如鸽子是鸟，但是鸟不满足鸽子的独有特征。所以可以说子类对象总是父类的实例，但是不能说父类对象总是子类的实例。  
+如果想向下转型，就必须使用显示类型转换：  
+$\color{aqua}{格式}$：(目标类名)变量名;  
+但是这种向下转型往往有不安全的问题。所以就出现了Java的泛型编程。  
+为什么需要向下转型？就是因为在实践中虽然将一堆不同类型的类都归于一组，但是获得了抽象性，也丢失了可扩展性。所以向下转型就可以强行获取到原来子类独有的方法。  
 
 ### [9.4 instanceof关键字](#94instanceof关键字)
 
-当进行向下转型时如果父类不是子类对象的实例，就会发生ClassCastException异常，所以向下转型需要判断父类对象是否为子类对象的实例。
-格式:对象的引用变量 instanceof 目标类;
-返回true值就是是实例对象，false就是不是。
+当进行向下转型时如果父类不是子类对象的实例，就会发生ClassCastException异常，所以向下转型需要判断父类对象是否为子类对象的实例。  
+$\color{aqua}{格式}$:对象的引用变量 instanceof 目标类;  
+返回`true`值就是是实例对象，`false`就是不是。  
 
 ### [9.5 重载](#95重载)
 
-重载就是在同一个类中允许同时存在一个以上的同名方法，只需要参数个数或者参数类型不同即可。
-编译器是根据方法名、参数类型和参数个数以及参数顺序来判断类中的方法是否唯一。（返回值类型不足以判断两个方法的重载）
-如：
+重载就是在同一个类中允许同时存在一个以上的同名方法，只需要参数个数或者参数类型不同即可。  
+编译器是根据方法名、参数类型和参数个数以及参数顺序来判断类中的方法是否唯一。（返回值类型不足以判断两个方法的重载）  
+如：  
+
+```java
 public class Add{
-public static int add(int a,int b){
-return a+b;
+    public static int add(int a,int b){
+        return a+b;
+    }
+    public static double add(double a,double b){
+        return a+b;
+    }
+    public static int add(int a){
+        return a;
+    }
+    public static int add(int a,double b){
+        return 1;
+    }
+    public static int add(double a,int b){
+        return 1;
+    }
+    public static void main(String[] args){
+        System.out.println("add(int,int)"+add(1,2));
+        System.out.println("add(double,double)"+add(1.3,2.7));
+        System.out.println("add(int)"+add(1));
+    }
 }
-public static double add(double a,double b){
-return a+b;
-}
-public static int add(int a){
-return a;
-}
-public static int add(int a,double b){
-return 1;
-}
-public static int add(double a,int b){
-return 1;
-}
-public static void main(String[] args){
-System.out.println("add(int,int)"+add(1,2));
-System.out.println("add(double,double)"+add(1.3,2.7));
-System.out.println("add(int)"+add(1));
-}
-}
+```
+
 不同的参数传入函数会实现不同的实现，所以重载的意义就是实现不同参数的适应。
 
 ### [9.6 不定长参数](#96不定长参数)
 
-格式：参数数据类型...参数名称
-等价于 参数数据类型 参数名称[]；
-如int...a等价于int a[];
+$\color{aqua}{格式}$：参数数据类型...参数名称  
+等价于 参数数据类型 参数名称[]；  
+如int...a等价于int a[];  
 如：
+
+```java
 public static int add(int...a){
 int s=0;
 for(int i=0,i<a.length；i++)
 s+=a[i];
 return s;
 }
+```
+
 定义不定长参数仍然是可以作为方法的重载。且实用方法类似数组。
 
 ### [9.7 多态](#97多态)
@@ -2640,19 +2932,18 @@ return s;
 
 一般父类被定义为抽象类，需要使用该抽象类进行继承和多态处理。由继承机制可以得知，一般越上面的父类就越抽象，在多态机制中不需要实例化抽象类的父类，只需要子类对象，所以在Java中也不能实例化抽象类对象，所以就比如图像类不能抽象出一个具体图形，但是其子类就可以。
 最典型的例子就是在Java中没有构造Object类的构造函数，就是因为多态机制它作为抽象类不可实例化。（在JavaScript中就含有，所以JavaScript就不是面向对象的语言，而是基于对象的语言）
-格式：
-public abstract class 抽象类名{
-abstract 权限修饰符 抽象方法名();
-}
-abstract关键字就是定义抽象类和抽象方法的关键字。
+$\color{aqua}{格式}$：  
+public abstract class 抽象类名{  
+abstract 权限修饰符 抽象方法名();  
+}  
+`abstract`关键字就是定义抽象类和抽象方法的关键字。
 
-使用abstract关键字定义的类就是抽象类，定义的方法就是抽象方法。
+使用`abstract`关键字定义的类就是抽象类，定义的方法就是抽象方法。
 抽象方法没有方法体，它本身没有任何意义，也没有任何作用，除非它在子类被重写，而承载这个抽象方法的抽象类必须被继承（抽象类的存在意义就是被继承）。
-抽象方法不能被声明成 final 和 static。
+抽象方法不能被声明成`final`和`static`。
 
-也就是说如果声明一个抽象的方法，那么承载它的类必须是抽象类，只要类中有一个抽象方法，那么它就是抽象类。
-当然抽象类中也可以含有非抽象的具体实现的方法。也就是说抽象类可以没有抽象方法。它们双方并不是充分必要条件。当然
-抽象类被继承后需要实现其中所有的抽象方法，也就是说要保证相同的方法名称，参数列表和相同返回值类型创建出非抽象方法，也可以是抽象方法。
+也就是说如果声明一个抽象的方法，那么承载它的类必须是抽象类，只要类中有一个抽象方法，那么它就是抽象类。  
+当然抽象类中也可以含有非抽象的具体实现的方法。也就是说抽象类可以没有抽象方法。它们双方并不是充分必要条件。当然抽象类被继承后需要实现其中所有的抽象方法，也就是说要保证相同的方法名称，参数列表和相同返回值类型创建出非抽象方法，也可以是抽象方法。  
 当继承抽象类的所有子类都需要将抽象类中的抽象方法都覆盖，即重写（因为抽象方法没有意义）
 
 ### [9.9 接口（interface和implements关键字）](#99接口（interface和implements关键字）)
@@ -2661,59 +2952,59 @@ abstract关键字就是定义抽象类和抽象方法的关键字。
 
 #### &emsp;[9.9.1 定义和实现](#991定义和实现)
 
-接口定义的格式：
-public interface 接口名{
-接口内方法，接口中的方法都是抽象方法，不能具体实现功能。
-}
+接口定义的$\color{aqua}{格式}$：
+public interface 接口名{  
+接口内方法，接口中的方法都是抽象方法，不能具体实现功能。  
+}  
 
-实现接口的格式：
-public class 类名 implements 接口名{
-}
-或者
-public class 类名 extends 父类名 implements 接口名{
-}
+实现接口的$\color{aqua}{格式}$：  
+public class 类名 implements 接口名{  
+}  
+或者  
+public class 类名 extends 父类名 implements 接口名{  
+}  
 
-在接口中定义的方法必须被声明为public或者abstract形式，其他权限修饰符都不认可，即使不声明也是默认该形式。
-且在接口中定义的任何字段都是static和final的。
+在接口中定义的方法必须被声明为`public`或者`abstract`形式，其他权限修饰符都不认可，即使不声明也是默认该形式。  
+且在接口中定义的任何字段都是`static`和`final`的。
 
 接口中亦可以有属性，不过这些都是会改变的属性，在子类会重新被重写。
 
 #### &emsp;[9.9.2 多继承](#992多继承)
 
-Java不允许多继承，但是使用接口可以实现多继承，因为一个类可以同时实现多个接口，但是很可能会带来更多的代码量，因为继承一个接口就要实现其所有的方法。
-格式：class 类名 implements 接口1,接口2……
+Java不允许多继承，但是使用接口可以实现多继承，因为一个类可以同时实现多个接口，但是很可能会带来更多的代码量，因为继承一个接口就要实现其所有的方法。  
+$\color{aqua}{格式}$：class 类名 implements 接口1,接口2……
 
 同时接口可以继承其他接口：
-格式：
-interface 接口1 extends 接口2{
+$\color{aqua}{格式}$：  
+interface 接口1 extends 接口2{  
 }
 
 #### &emsp;[9.9.3 总结](#993总结)
 
-接口并不是类，编写接口的方式和类很相似，但是它们属于不同的概念。类描述对象的属性和方法。接口则包含类要实现的方法。
-除非实现接口的类是抽象类，否则该类要定义接口中的所有方法。
-接口无法被实例化，但是可以被实现。一个实现接口的类，必须实现接口内所描述的所有方法，否则就必须声明为抽象类。另外，在 Java 中，接口类型可用来声明一个变量，他们可以成为一个空指针，或是被绑定在一个以此接口实现的对象。
+接口并不是类，编写接口的方式和类很相似，但是它们属于不同的概念。类描述对象的属性和方法。接口则包含类要实现的方法。  
+除非实现接口的类是抽象类，否则该类要定义接口中的所有方法。  
+接口无法被实例化，但是可以被实现。一个实现接口的类，必须实现接口内所描述的所有方法，否则就必须声明为抽象类。另外，在Java中，接口类型可用来声明一个变量，他们可以成为一个空指针，或是被绑定在一个以此接口实现的对象。  
 
-接口与类相似点：
-一个接口可以有多个方法。
-接口文件保存在 .java 结尾的文件中，文件名使用接口名。
-接口的字节码文件保存在 .class 结尾的文件中。
-接口相应的字节码文件必须在与包名称相匹配的目录结构中。
+接口与类相似点：  
+一个接口可以有多个方法。  
+接口文件保存在 .java 结尾的文件中，文件名使用接口名。  
+接口的字节码文件保存在 .class 结尾的文件中。  
+接口相应的字节码文件必须在与包名称相匹配的目录结构中。  
 
-接口与类的区别：
-接口不能用于实例化对象。
-接口没有构造方法。
-接口中所有的方法必须是抽象方法。
-接口不能包含成员变量，除了 static 和 final 变量。
-接口不是被类继承了，而是要被类实现。
+接口与类的区别：  
+接口不能用于实例化对象。  
+接口没有构造方法。  
+接口中所有的方法必须是抽象方法。  
+接口不能包含成员变量，除了`static`和`final`变量。  
+接口不是被类继承了，而是要被类实现。  
 接口支持多继承。
 
-接口特性
-接口中每一个方法也是隐式抽象的,接口中的方法会被隐式的指定为 public abstract（只能是 public abstract，其他修饰符都会报错）。
-接口中可以含有变量，但是接口中的变量会被隐式的指定为 public static final 变量（并且只能是 public，用 private 修饰会报编译错误）。
+接口特性  
+接口中每一个方法也是隐式抽象的,接口中的方法会被隐式的指定为`public abstract`（只能是`public abstract`，其他修饰符都会报错）。  
+接口中可以含有变量，但是接口中的变量会被隐式的指定为`public static final`变量（并且只能是`public`，用`private`修饰会报编译错误）。  
 接口中的方法是不能在接口中实现的，只能由实现接口的类来实现接口中的方法。
 
-抽象类和接口的区别
+抽象类和接口的区别  
 
 1. 抽象类中的方法可以有方法体，就是能实现方法的具体功能，但是接口中的方法不行。
 2. 抽象类中的成员变量可以是各种类型的，而接口中的成员变量只能是 public static final 类型的。
@@ -2724,17 +3015,19 @@ interface 接口1 extends 接口2{
 
 Java 8 对接口做了进一步的增强。
 
-a. 在接口中可以添加使用 default 关键字修饰的非抽象方法。即：默认方法（或扩展方法）
+a. 在接口中可以添加使用 default 关键字修饰的非抽象方法。即：默认方法（或扩展方法）  
 b. 接口里可以声明静态方法，并且可以实现。
 
 默认方法（或扩展方法）
-Java 8 允许给接口添加一个非抽象的方法实现，只需要使用 default 关键字即可，这个特征又叫做扩展方法（也称为默认方法或虚拟扩展方法或防护方法）。在实现该接口时，该默认扩展方法在子类上可以直接使用，它的使用方式类似于抽象类中非抽象成员方法。
-扩展方法不能够重写（也称复写或覆盖） Object 中的方法，却可以重载Object 中的方法。
-toString、equals、 hashCode 不能在接口中被覆盖，却可以被重载。
+Java 8 允许给接口添加一个非抽象的方法实现，只需要使用`default`关键字即可，这个特征又叫做扩展方法（也称为默认方法或虚拟扩展方法或防护方法）。在实现该接口时，该默认扩展方法在子类上可以直接使用，它的使用方式类似于抽象类中非抽象成员方法。  
+扩展方法不能够重写（也称复写或覆盖） `Object`中的方法，却可以重载`Object`中的方法。
+`toString`、`equals`、 `hashCode`不能在接口中被覆盖，却可以被重载。  
 默认方法允许我们在接口里添加新的方法，而不会破坏实现这个接口的已有类的兼容性，也就是说不会强迫实现接口的类实现默认方法。
 
 默认方法和抽象方法的区别是抽象方法必须要被实现，默认方法不是。作为替代方式，接口可以提供一个默认的方法实现，所有这个接口的实现类都会通过继承得到这个方法（如果有需要也可以重写这个方法）
 如：
+
+```java
 interface Defaulable {
     //使用default关键字声明了一个默认方法
      @SuppressLint("NewApi")
@@ -2752,39 +3045,40 @@ class OverridableImpl implements Defaulable {
             return "Overridden implementation";
         }
 }
+```
 
-JVM平台的接口的默认方法实现是很高效的，并且方法调用的字节码指令支持默认方法。默认方法使已经存在的接口可以修改而不会影响编译的过程。java.util.Collection中添加的额外方法就是最好的例子：stream(), parallelStream(), forEach(), removeIf()
+JVM平台的接口的默认方法实现是很高效的，并且方法调用的字节码指令支持默认方法。默认方法使已经存在的接口可以修改而不会影响编译的过程。`java.util.Collection`中添加的额外方法就是最好的例子：`stream()`, `parallelStream()`, `forEach()`, `removeIf()`
 
 虽然默认方法很强大，但是使用之前一定要仔细考虑是不是真的需要使用默认方法，因为在层级很复杂的情况下很容易引起模糊不清甚至变异错误。
 
 ### [9.10 类包](#910类包)
 
-在Java中定义一个类后通过编译就会产生一个.class字节码文件，如果不断扩大程序，很可能会出现命名冲突的问题。所以产生了类包。
+在Java中定义一个类后通过编译就会产生一个.class字节码文件，如果不断扩大程序，很可能会出现命名冲突的问题。所以产生了类包。  
 Java中每个接口或者类都来自不同的类包。
 
 #### &emsp;[9.10.1 类路径](#9101类路径)
 
-如Math类完整的路径就是java.lang.Math。一个完整的类名应该是包名和类名的组合。
-同一个包中的类相互访问可以不用指定包名。
+如`Math`类完整的路径就是`java.lang.Math`。一个完整的类名应该是包名和类名的组合。  
+同一个包中的类相互访问可以不用指定包名。  
 同一个包名中的类可以不必放在同一个位置，只用将CLASSPATH分别指向其具体的位置就行了。
 
 #### &emsp;[9.10.2 创建包](#9102创建包)
 
-格式：package 包名;
-在类中指定包名时需要将package表达式放在程序第一行，且必须是非注释的。当使用package关键字为类指定包名后，包名会成为类名中的一部分，所以这个类必须指定全名。
-Java包命名必须全部使用小写字母。
+$\color{aqua}{格式}$：package 包名;  
+在类中指定包名时需要将`package`表达式放在程序第一行，且必须是非注释的。当使用`package`关键字为类指定包名后，包名会成为类名中的一部分，所以这个类必须指定全名。  
+Java包命名必须全部使用小写字母。  
 在网络共享的包，往往使用创建者的Internet域名的反序作为包名，因为域名独一无二。
 
 #### &emsp;[9.10.3 导入包（import关键字）](#9103导入包（import关键字）)
 
-格式：import 包名;
-可以使用：import 包名.*;来导入包中所有的类。
-如果不同的类中有相同名字的类，那么使用就必须带有全名。
-在程序中添加import关键字时，就开始在CLASSPATH指定的目录中查找符合的.class文件。当import导入一个包中所有类时，不会导入这个包子包的类，如果需要就要单独引用子包。
+$\color{aqua}{格式}$：import 包名;  
+可以使用：import 包名.*;来导入包中所有的类。  
+如果不同的类中有相同名字的类，那么使用就必须带有全名。  
+在程序中添加`import`关键字时，就开始在CLASSPATH指定的目录中查找符合的.class文件。当`import`导入一个包中所有类时，不会导入这个包子包的类，如果需要就要单独引用子包。
 
 #### &emsp;[9.10.4 导入静态成员（import关键字）](#9104导入静态成员（import关键字）)
 
-格式：import static 静态成员;
+$\color{aqua}{格式}$：import static 静态成员;  
 直接导入包中静态的方法，不需要实例化。
 
 ### [9.11 内部类](#911内部类)
@@ -2800,128 +3094,137 @@ Java包命名必须全部使用小写字母。
 
 #### &emsp;[9.11.1 成员内部类](#9111成员内部类)
 
-在一个类中使用内部类，可以在内部类中直接存取其所在类的私有变量成员。
-格式：
-权限修饰符 class 外部类名{
-权限修饰符 class 内部类名{
-……
-}
+在一个类中使用内部类，可以在内部类中直接存取其所在类的私有变量成员。  
+$\color{aqua}{格式}$：  
+权限修饰符 class 外部类名{  
+权限修饰符 class 内部类名{  
+……  
+}  
 }
 
 ##### &emsp;&emsp;[9.11.1.1 说明](#91111说明)
 
-成员内部类也是最普通的内部类，它是外围类的一个成员，所以他是可以无限制的访问外围类的所有成员属性和方法，尽管是private的，但是外围类要访问内部类的成员属性和方法则需要通过内部类实例来访问。
-在成员内部类中要注意两点，第一：成员内部类中不能存在任何static的变量和方法；第二：成员内部类是依附于外围类的，所以只有先创建了外围类才能够创建内部类。
+成员内部类也是最普通的内部类，它是外围类的一个成员，所以他是可以无限制的访问外围类的所有成员属性和方法，尽管是`private`的，但是外围类要访问内部类的成员属性和方法则需要通过内部类实例来访问。  
+在成员内部类中要注意两点，第一：成员内部类中不能存在任何`static`的变量和方法；第二：成员内部类是依附于外围类的，所以只有先创建了外围类才能够创建内部类。  
 
-内部类的实例一定要绑定在外部类的实例上，如果从外部类中初始化一个内部类对象，那么内部类对象就会被绑定到外部类对象上。内部类初始化方法与其他类初始化方法相同，都是使用new。也就是说需要使用内部类方法必须先实例化外部类，且类使用形式为：
+内部类的实例一定要绑定在外部类的实例上，如果从外部类中初始化一个内部类对象，那么内部类对象就会被绑定到外部类对象上。内部类初始化方法与其他类初始化方法相同，都是使用`new`。也就是说需要使用内部类方法必须先实例化外部类，且类使用形式为：  
 外部类名.内部类名。
 
 如:
+
+```java
 public class OuterClass{
-innerClass in = new innerClass(); //在外部类实例化内部类对象引用
-public void ouf(){
-in.inf(); //在外部类方法中调用内部类方法
-}
-class innerClass{
-innerClass(){ //内部类构造方法
-}
-public void inf(){ //内部类成员方法
-}
-int y = 0; //定义内部类成员变量
-}
-public innerClass doit(){ //外部类方法，返回值为内部类引用
-//y = 4; //外部类不可以直接访问内部类成员变量
-in.y = 4;
-return new innerClass();
-}
-public static void main(String[] args){
-OuterClass out = new OuterClass();
+    innerClass in = new innerClass(); //在外部类实例化内部类对象引用
+    public void ouf(){
+        in.inf(); //在外部类方法中调用内部类方法
+    }
+    class innerClass{
+        innerClass(){ //内部类构造方法
+        }
+        public void inf(){ //内部类成员方法
+        }
+        int y = 0; //定义内部类成员变量
+    }
+    public innerClass doit(){ //外部类方法，返回值为内部类引用
+    //y = 4; //外部类不可以直接访问内部类成员变量
+        in.y = 4;
+        return new innerClass();
+    }
+    public static void main(String[] args){
+        OuterClass out = new OuterClass();
 //内部类的对象实例化操作必须在外部类或者外部类的静态方法中实现
-OuterClass.innerClass in = out.doit();
-OuterClass.innerClass in2 = out.new innerClass();
+        OuterClass.innerClass in = out.doit();
+        OuterClass.innerClass in2 = out.new innerClass();
+    }
 }
-}
-外部类创建内部类实例与其他类创建对象引用时相同。内部可以访问其外部类成员，但是内部类成员只有内部类内才可以使用，外部类不能直接使用。
+```
+
+外部类创建内部类实例与其他类创建对象引用时相同。内部可以访问其外部类成员，但是内部类成员只有内部类内才可以使用，外部类不能直接使用。  
 如果在外部类和非静态方法之外实例化内部类对象，需要使用外部类，内部类的形式指定该对象的类型。内部类依赖外部类的存在而存在。
 
 内部类是个编译时的概念，一旦编译成功后，它就与外围类属于两个完全不同的类（当然他们之间还是有联系的）。对于一个名为OuterClass的外围类和一个名为InnerClass的内部类，在编译成功后，会出现这样两个class文件：OuterClass.class和OuterClass$InnerClass.class。所以可以把还没有定义的内部类写在前面。
 
 ##### &emsp;&emsp;[9.11.1.2 内部类向上转型为接口](#91112内部类向上转型为接口)
 
-如果将一个权限修饰符为private的内部类向上转型为父类对象，或者直接向上转型为一个接口，那么就可以隐藏内部类具体实现过程。可以在外部提供一个接口，在接口中声明一个方法。如果在实现该接口的内部类中实现该接口的方法，，那么就可以定义多个内部类以不同的方式实现一个接口的同一方法，而一般类是无法多次实现接口中同一方法的。（类似于重载）
+如果将一个权限修饰符为`private`的内部类向上转型为父类对象，或者直接向上转型为一个接口，那么就可以隐藏内部类具体实现过程。可以在外部提供一个接口，在接口中声明一个方法。如果在实现该接口的内部类中实现该接口的方法，，那么就可以定义多个内部类以不同的方式实现一个接口的同一方法，而一般类是无法多次实现接口中同一方法的。（类似于重载）
 
+```java
 interface OutInterface{ //定义一个接口
-public void f();
+    public void f();
 }
 public class InterfaceInner{
-public static void main(String[] args){
-OuterClass out = new OuterClass(); //实例化一个OuterClass2对象
-OutInterface outinter = out.doit(); //调用doit()方法，返回一个OutInterface接口
-outinter.f(); //调用f()方法
-}
+    public static void main(String[] args){
+        OuterClass out = new OuterClass(); //实例化一个OuterClass2对象
+        OutInterface outinter = out.doit(); //调用doit()方法，返回一个OutInterface接口
+        outinter.f(); //调用f()方法
+    }
 }
 class OuterClass{ //定义一个内部类实现OutInterface接口
-private class InnerClass implements OutInterface{
-InnerClass(String s){ //内部类构造方法
-System.out.println(s);
+    private class InnerClass implements OutInterface{
+        InnerClass(String s){ //内部类构造方法
+            System.out.println(s);
+        }
+        public void f(){
+            System.out.println("访问内部类中的f()方法");
+        }
+    }
+    public OutInterface doit(){ //定义一个方法，返回类型为OutInterface接口
+        return new InnerClass("访问内部类构造方法");
+    }
 }
-public void f(){
-System.out.println("访问内部类中的f()方法");
-}
-}
-public OutInterface doit(){ //定义一个方法，返回类型为OutInterface接口
-return new InnerClass("访问内部类构造方法"); 
-}
-}
-OuterClass类中定义了一个修饰权限为private的内部类，这个内部类实现了OutInterface接口，后修改doit()方法，使该方法返回一个OutInterface接口。由于内部类InnerClass的修饰权限为private，所以只有其父类，即OuterClass类可以访问该内部类，可以访问doit()方法。由于该方法返回的是一个外部接口类型，这个接口可以作为外部使用的接口，其包含一个f()方法。在继承此方法的内部类中实现了此方法，如果某个类继承了外部类，由于内部的权限不能向下转型为内部类InnerClass，同时也不能访问f()方法，但是可以访问接口中的f()方法。如InterfaceInner类中的最后一条语句，接口调用f()方法，可以看出其执行的是内部类的f()方法，也就是对继承该类的子类隐藏了实现方法，隐藏了f()方法的具体实现，仅留下接口和外部类。这也是内部类的基础使用方法。
-非内部类不能被声明为private或者protected访问类型。
+```
+
+OuterClass类中定义了一个修饰权限为`private`的内部类，这个内部类实现了OutInterface接口，后修改`doit()`方法，使该方法返回一个OutInterface接口。由于内部类InnerClass的修饰权限为`private`，所以只有其父类，即OuterClass类可以访问该内部类，可以访问doit()方法。由于该方法返回的是一个外部接口类型，这个接口可以作为外部使用的接口，其包含一个f()方法。在继承此方法的内部类中实现了此方法，如果某个类继承了外部类，由于内部的权限不能向下转型为内部类InnerClass，同时也不能访问f()方法，但是可以访问接口中的f()方法。如InterfaceInner类中的最后一条语句，接口调用f()方法，可以看出其执行的是内部类的f()方法，也就是对继承该类的子类隐藏了实现方法，隐藏了f()方法的具体实现，仅留下接口和外部类。这也是内部类的基础使用方法。  
+非内部类不能被声明为`private`或者`protected`访问类型。
 
 ##### &emsp;&emsp;[9.11.1.3 使用this关键字获取内部类与外部类的引用](#91113使用this关键字获取内部类与外部类的引用)
 
-如果在外部类中定义的成员变量与内部类的成员变量名称相同，可以使用this关键字。
-格式：
-内部类当前对象的变量：this.变量名
-当前对象外部类的变量：外部类名.this.变量名
+如果在外部类中定义的成员变量与内部类的成员变量名称相同，可以使用`this`关键字。
+$\color{aqua}{格式}$：  
+内部类当前对象的变量：this.变量名  
+当前对象外部类的变量：外部类名.this.变量名  
 
+```java
 public class TheSameName{
-private int x;
-private class Inner{
-public void doit(int x){ //传入的是形参x
-x++; //调用形参x
-this.x++； //调用内部类的变量x
-TheSameName.this.x++;
+    private int x;
+    private class Inner{
+        public void doit(int x){ //传入的是形参x
+            x++; //调用形参x
+            this.x++； //调用内部类的变量x
+            TheSameName.this.x++;
+        }
+    }
 }
-}
-}
+```
 
 #### &emsp;[9.11.2 局部内部类](#9112局部内部类)
 
-内部类不仅可以在类中定义，也可以在类的局部区域定义，如类的方法，选择和循环语句中等。
-对于这个类的使用主要是应用与解决比较复杂的问题，想创建一个类来辅助我们的解决方案，到那时又不希望这个类是公共可用的，所以就产生了局部内部类。
+内部类不仅可以在类中定义，也可以在类的局部区域定义，如类的方法，选择和循环语句中等。  
+对于这个类的使用主要是应用与解决比较复杂的问题，想创建一个类来辅助我们的解决方案，到那时又不希望这个类是公共可用的，所以就产生了局部内部类。  
+
+```java
 interface OutInterface{ //定义一个接口
 }
 class OuterClass{
-public OutInterface doit(final String x){ 
-//doit方法参数设置为final类型，也就是无法修改参数
-//定义一个内部类
-class InnerClass implements OutInterface{
-InnerClass(String s){
-s = x;
-System.out.println(s);
+    public OutInterface doit(final String x){
+    //doit方法参数设置为final类型，也就是无法修改参数
+    //定义一个内部类
+        class InnerClass implements OutInterface{
+            InnerClass(String s){
+                s = x;
+                System.out.println(s);
+            }
+        return new InnerClass("doit");
+    }
 }
-return new InnerClass("doit");
-}
-}
-内部类被定义在doit()方法内部，但是内部类InnerClass是doit()方法的一部分，而不是OuterClass的一部分，所以doit方法外部无法访问内部类额，但是该内部类可以访问外部类和方法的成员。
-由于参数x被设置为final类型，所以是无法更改其值，因为其生命周期超越方法的生命周期，被认为是一个常量。
+```
+
+内部类被定义在doit()方法内部，但是内部类InnerClass是doit()方法的一部分，而不是OuterClass的一部分，所以doit方法外部无法访问内部类额，但是该内部类可以访问外部类和方法的成员。  
+由于参数x被设置为`final`类型，所以是无法更改其值，因为其生命周期超越方法的生命周期，被认为是一个常量。
 
 #### &emsp;[9.11.3 匿名内部类](#9113匿名内部类)
 
 &emsp;  
-
-
-
----
 
 ## [回到目录](#目录) &emsp; &emsp;[查询更多](https://github.com/Didnelpsun/notes)
 
