@@ -69,7 +69,7 @@
 
 14. 使用\$\color{purple}{例子}$来表示 $\color{purple}{例子}$， 使用\$\color{aqua}}{格式}$来表示 $\color{aqua}{格式}$，使用\$\color{green}}{行内关键字}$来表示 $\color{green}{行内关键字}$，使用\$\color{yellowgreen}}{标题关键字}$来表示 $\color{yellowgreen}{标题关键字}$，使用\$\color{yellow}}{提示：}$来表示 $\color{yellow}{提示：}$，使用\$\color{orange}{注意：}$来表示 $\color{orange}{注意：}$，使用\$\color{red}}{警告：}$来表示 $\color{red}{警告：}$。
 
-15. 文档中需要将编程语言的关键字和片段或者函数方法用``来括起来。格式中不需要将关键字作为代码片段来括起来。
+15. 文档中需要将编程语言的关键字和片段或者函数方法用``来括起来。格式中不需要将关键字作为代码片段来括起来。但是如果是html标签就需要括起来。
 
 ## 参考书
 
