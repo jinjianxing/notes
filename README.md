@@ -88,3 +88,7 @@
 + [JavaScript权威指南_David Flanagan](https://pan.baidu.com/s/1GkPSv_y0DqwVaHbbx0dTqA&shfl=sharepset)&emsp;提取码：jyvz。
 
 + [机器学习_周志华](https://pan.baidu.com/s/1kKRTwbR7LVk6C7nh4_QnUw&shfl=sharepset)&emsp;提取码：f29x。
+
+## P
+
++ [Python编程：从入门到实践_Eric Matthes](https://pan.baidu.com/s/18LDCV1y8rgTcPmrDCZCyWA)&emsp;提取码：h4iu。
