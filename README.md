@@ -92,3 +92,5 @@
 ## P
 
 + [Python编程：从入门到实践_Eric Matthes](https://pan.baidu.com/s/18LDCV1y8rgTcPmrDCZCyWA)&emsp;提取码：h4iu。
+
++ [Python机器学习算法_赵志勇](https://pan.baidu.com/s/1kRq91_Uig7RuHOaohxugQg)&emsp;提取码：6v92。
