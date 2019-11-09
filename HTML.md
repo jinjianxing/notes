@@ -14,6 +14,12 @@
 
 ### &emsp;2.3[`<meta>`标签](#23-`<meta>`标签)
 
+#### &emsp;&emsp;2.3.1[charset属性](#231-charset属性)
+
+#### &emsp;&emsp;2.3.2[name属性与content属性](#232-name属性与content属性)
+
+#### &emsp;&emsp;2.3.1[charset属性](#231-charset属性)
+
 ### &emsp;2.1[head的lang属性](#21-head的lang属性)
 
 ## 第三章[全局属性](#第三章-全局属性)
@@ -65,28 +71,27 @@ $\color{orange}{注意：}$：lang 属性在以下标签中无效：`<base>, <br
 
 控制整个网页元数据，仅在`<head></head>`标签中。
 
-### [2.4 `<meta>`标签](#24`<meta>`标签)
+#### &emsp;[2.3.1 charset属性](#231charset属性)
 
-<!-- 
-2.3
+规定html文档字符编码，一般编码为UTF-8。  
+charset 属性可以通过任意元素上的 lang 属性来重写。  
+$\color{aqua}{格式}$：`<meta charset="编码形式">`
 
-2.3.1charset属性
-规定html文档字符编码，一般编码为UTF-8。
-charset 属性可以通过任意元素上的 lang 属性来重写。
-格式：<meta charset="编码形式">
-2.3.2name属性与content属性
-name属性把 content 属性关联到一个名称。，而content属性定义与 http-equiv 或 name 属性相关的元信息。
-格式：<meta name="name值" content="值">
-eg:<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+#### &emsp;[2.3.2 name属性与content属性](#232name属性与content属性)
 
-name属性值：
-① application-name	规定页面所代表的 Web 应用程序的名称。
-② author	规定文档的作者的名字。实例： <meta name="author" content="Hege Refsnes">
-③ description	规定页面的描述。搜索引擎会把这个描述显示在搜索结果中。
-实例： <meta name="description" content="Free web tutorials">
-④ generator	规定用于生成文档的一个软件包（不用于手写页面）。
-实例： <meta name="generator" content="FrontPage 4.0">
-⑤ keywords	规定一个逗号分隔的关键词列表 - 相关的网页（告诉搜索引擎页面是与什么相关的）。
+name属性把 content 属性关联到一个名称。，而content属性定义与 http-equiv 或 name 属性相关的元信息。  
+$\color{aqua}{格式}$：`<meta name="name值" content="值">`  
+eg:`<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">`
+
+name属性值：  
+① application-name 规定页面所代表的 Web 应用程序的名称。  
+② author 规定文档的作者的名字。  
+实例： `<meta name="author" content="Hege Refsnes">`  
+③ description 规定页面的描述。搜索引擎会把这个描述显示在搜索结果中。  
+实例： `<meta name="description" content="Free web tutorials">`
+④ generator 规定用于生成文档的一个软件包（不用于手写页面）。  
+实例： `<meta name="generator" content="FrontPage 4.0">`
+⑤ keywordsBB规定一个逗号分隔的关键词列表 - 相关的网页（告诉搜索引擎页面是与什么相关的）。
 提示：总是规定关键词（对于搜索引擎进行页面分类是必要的）。
 实例： <meta name="keywords" content="HTML, meta tag, tag reference">
 ⑥ Copyright (版权)标注版权
@@ -97,6 +102,14 @@ name属性值：
 ⑧ Revisit-after (重访)通知搜索引擎多少天访问一次
 实例：<meta name="revisit-after" content="7 days" >
 如果没有提供 name 属性，那么名称/值对中的名称会采用 http-equiv 属性的值。
+
+#### &emsp;[2.3.1 charset属性](#231charset属性)
+
+### [2.4 `<meta>`标签](#24`<meta>`标签)
+
+<!-- 
+
+
 2.3.3http-equiv属性
 http-equiv 属性提供了 content 属性的信息/值的 HTTP 头。可用于模拟一个 HTTP 响应头。与content属性配合使用。
 
