@@ -168,23 +168,23 @@ JavaScript的常见应用时图像操作、表单验证以及动态内容更新
 
 ## [第三章 全局属性](#第三章全局属性)
 
-<!-- 3.1accescckey属性
+3.1accescckey属性
 规定激活元素（使元素获得焦点）的快捷键。
 格式：<元素 accesskey="激活该元素的快捷键">
-以下元素支持 accesskey 属性：<a>, <area>, <button>, <input>, <label>, <legend> 以及 <textarea>。
-实例：<a href="http://www.w3school.com.cn/html/" accesskey="h">HTML</a><br />
-<a href="http://www.w3school.com.cn/css/" accesskey="c">CSS</a>
+以下元素支持 accesskey 属性：`<a>`, `<area>`, `<button>`, `<input>`, `<label>`, `<legend> `以及 `<textarea>`。
+实例：`<a href="http://www.w3school.com.cn/html/" accesskey="h">HTML</a><br />`
+`<a href="http://www.w3school.com.cn/css/" accesskey="c">CSS</a>`
 3.2class属性
 规定元素的一个或多个类名（引用样式表中的类）。class 属性大多数时候用于指向样式表中的类（class）。不过，也可以利用它通过 JavaScript 来改变带有指定 class 的 HTML 元素。
 格式：<元素 class=“类名”>如需为一个元素规定多个类，用空格分隔类名。
 class 属性不能在以下 HTML 元素中使用：base, head, html, meta, param, script, style 以及 title。
-提示：可以给 HTML 元素赋予多个 class，例如：<span class="left_menu important">。这么做可以把若干个 CSS 类合并到一个 HTML 元素。
+提示：可以给 HTML 元素赋予多个 class，例如：`<span class="left_menu important">`。这么做可以把若干个 CSS 类合并到一个 HTML 元素。
 提示：类名不能以数字开头！只有 Internet Explorer 支持这种做法。
-实例：<h1 class="intro">
+实例：`<h1 class="intro">`
 3.3contenteditable属性
 规定元素内容是否可编辑.如果元素未设置 contenteditable 属性，那么元素会从其父元素继承该属性。
 格式：<元素 contenteditable="true|false">
-实例：<p contenteditable="true">这是一个可编辑的段落。</p>
+实例：`<p contenteditable="true">这是一个可编辑的段落。</p>`
 3.4contextmenu属性
 规定 <div> 元素的上下文菜单。上下文菜单会在用户右键点击元素时出现。contextmenu 属性的值是要打开的 <menu> 元素的 id。
 格式：<元素 contextmenu="菜单id">
@@ -252,7 +252,7 @@ lang 属性在以下标签中无效：<base>, <br>, <frame>, <frameset>, <hr>, <
 3.16tanslate属性
 规定是否应该翻译此元素内容
 格式：<元素 translate=”yes|no”>
-基本浏览器没有实现 -->
+基本浏览器没有实现
 
 &emsp;
 
@@ -343,7 +343,7 @@ bdo 指的是 bidi 覆盖（Bi-Directional Override）。<bdo> 标签用来覆�
 
 ## [第五章 链接与图像](#第五章链接与图像)
 
-<!-- 5.1<a>标签
+5.1<a>标签
 用于设置超文本链接。
 超链接可以是一个字，一个词，或者一组词，也可以是一幅图像，您可以点击这些内容来跳转到新的文档或者当前文档中的某个部分。当您把鼠标指针移动到网页中的某个链接上时，箭头会变为一只小手。
 默认情况下，链接将以以下形式出现在浏览器中：
@@ -523,13 +523,13 @@ poly	定义多边形区域
   <area href="sun.htm" shape="rect" coords="0,0,110,260">Sun</area>
   <area href="mercur.htm" shape="circle" coords="129,161,10">Mercury</area>
   <area href="venus.htm" shape="circle" coords="180,139,14">Venus</area>
-</map>  -->
+</map>
 
 &emsp;
 
 ## [第六章 表格与菜单](#第六章表格与菜单)
 
-<!-- 6.1<table>标签（表格）
+6.1<table>标签（表格）
 表格由 <table> 标签来定义。每个表格均有若干行（由 <tr> 标签定义），每行被分割为若干单元格（由 <td> 标签定义）。字母 td 指表格数据（table data），即数据单元格的内容。数据单元格可以包含文本、图片、列表、段落、表单、水平线、表格等等。
 6.1.1border属性
 border 属性规定表格单元周围是否显示边框。且只允许属性值 "" 或 "1"。（无和有）
