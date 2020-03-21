@@ -14,6 +14,6 @@ public class App
         //将Spring beans配置文件引入，使里面的配置可以被使用
         welcomeContext = new ClassPathXmlApplicationContext("SpringBeans.xml");
         HelloWorld hello = (HelloWorld) welcomeContext.getBean("HelloWorldBean");
-        System.out.println("helloworld");
+        hello.saySomeThing();
     }
 }
