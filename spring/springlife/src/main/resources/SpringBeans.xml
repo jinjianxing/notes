@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+        default-init-method="defaultinit"
+        default-destroy-method="defaultdestroy">
+
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor" />
+
+    <bean id = "HelloWorldBean" class="org.didnelpsun.test.HelloWorld"  scope="singleton" init-method="initmethod" destroy-method="destroymethod">
+        <property name="words" value="prohi"/>
+    </bean>
+</beans>
