@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -168,7 +168,7 @@
       <workItem from="1584787519330" duration="679000" />
       <workItem from="1584934329798" duration="130000" />
       <workItem from="1585658697628" duration="135000" />
-      <workItem from="1585658840505" duration="88000" />
+      <workItem from="1585658840505" duration="3814000" />
     </task>
     <servers />
   </component>
@@ -200,22 +200,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1584687677796" />
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1584934453791">
+    <state width="1493" height="283" key="GridCell.Tab.0.bottom" timestamp="1585662434096">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1584934453791" />
-    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1584934453790">
+    <state width="1493" height="283" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1585662434096" />
+    <state width="1493" height="283" key="GridCell.Tab.0.center" timestamp="1585662434096">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1584934453790" />
-    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1584934453790">
+    <state width="1493" height="283" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1585662434096" />
+    <state width="1493" height="283" key="GridCell.Tab.0.left" timestamp="1585662434096">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1584934453790" />
-    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1584934453790">
+    <state width="1493" height="283" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1585662434096" />
+    <state width="1493" height="283" key="GridCell.Tab.0.right" timestamp="1585662434096">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1584934453790" />
+    <state width="1493" height="283" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1585662434096" />
     <state width="1024" height="214" key="GridCell.Tab.1.bottom" timestamp="1584632799835">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -264,5 +264,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="449" y="100" key="spring file set editor/0.0.1536.834@0.0.1536.834" timestamp="1584624717681" />
+    <state x="491" y="328" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1585658984977">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="491" y="328" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.834@0.0.1536.834" timestamp="1585658984977" />
   </component>
 </project>
