@@ -200,22 +200,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1584687677796" />
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1584934453791">
+    <state width="1493" height="283" key="GridCell.Tab.0.bottom" timestamp="1589361193945">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1584934453791" />
-    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1584934453790">
+    <state width="1493" height="283" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1589361193945" />
+    <state width="1493" height="283" key="GridCell.Tab.0.center" timestamp="1589361193944">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1584934453790" />
-    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1584934453790">
+    <state width="1493" height="283" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1589361193944" />
+    <state width="1493" height="283" key="GridCell.Tab.0.left" timestamp="1589361193944">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1584934453790" />
-    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1584934453790">
+    <state width="1493" height="283" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1589361193944" />
+    <state width="1493" height="283" key="GridCell.Tab.0.right" timestamp="1589361193944">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1584934453790" />
+    <state width="1493" height="283" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1589361193944" />
     <state width="1024" height="214" key="GridCell.Tab.1.bottom" timestamp="1584632799835">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -264,5 +264,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="449" y="100" key="spring file set editor/0.0.1536.834@0.0.1536.834" timestamp="1584624717681" />
+    <state x="491" y="328" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1589361074382">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="491" y="328" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.834@0.0.1536.834" timestamp="1589361074382" />
   </component>
 </project>
