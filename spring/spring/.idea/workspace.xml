@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -82,18 +82,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="spring" />
-      <useClassPathOnly />
-      <option name="PACKAGE_NAME" value="org.didnelpsun" />
-      <option name="MAIN_CLASS_NAME" value="org.didnelpsun.AppTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="spring []" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -119,7 +107,6 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="Maven.spring []" />
     </list>
     <recent_temporary>
@@ -169,6 +156,8 @@
       <workItem from="1584934329798" duration="130000" />
       <workItem from="1585658697628" duration="135000" />
       <workItem from="1585658840505" duration="88000" />
+      <workItem from="1588070723020" duration="857000" />
+      <workItem from="1588515066854" duration="298000" />
     </task>
     <servers />
   </component>
@@ -176,14 +165,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="467" y="111" key="#App" timestamp="1589360759578">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="467" y="111" key="#App/0.0.1536.834@0.0.1536.834" timestamp="1589360759578" />
     <state x="361" y="75" key="#Project_Structure" timestamp="1584788164279">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="75" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1584788164279" />
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584632915796">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589360798910">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1584632915796" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1589360798910" />
     <state x="574" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1584634554809">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -196,26 +189,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="172" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.834@0.0.1536.834" timestamp="1584624361685" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1584687677796">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1588515362824">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1584687677796" />
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1584934453791">
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1588515362824" />
+    <state width="1493" height="283" key="GridCell.Tab.0.bottom" timestamp="1589360818612">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1584934453791" />
-    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1584934453790">
+    <state width="1493" height="283" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1589360818612" />
+    <state width="1493" height="283" key="GridCell.Tab.0.center" timestamp="1589360818612">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1584934453790" />
-    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1584934453790">
+    <state width="1493" height="283" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1589360818612" />
+    <state width="1493" height="283" key="GridCell.Tab.0.left" timestamp="1589360818612">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1584934453790" />
-    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1584934453790">
+    <state width="1493" height="283" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1589360818612" />
+    <state width="1493" height="283" key="GridCell.Tab.0.right" timestamp="1589360818612">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1584934453790" />
+    <state width="1493" height="283" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1589360818612" />
     <state width="1024" height="214" key="GridCell.Tab.1.bottom" timestamp="1584632799835">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -260,9 +253,13 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1584630773830" />
-    <state x="449" y="100" key="spring file set editor" timestamp="1584624717681">
+    <state x="449" y="100" key="spring file set editor" timestamp="1589360688957">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="449" y="100" key="spring file set editor/0.0.1536.834@0.0.1536.834" timestamp="1584624717681" />
+    <state x="449" y="100" key="spring file set editor/0.0.1536.834@0.0.1536.834" timestamp="1589360688957" />
+    <state x="491" y="328" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1588070830597">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="491" y="328" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.834@0.0.1536.834" timestamp="1588070830597" />
   </component>
 </project>
