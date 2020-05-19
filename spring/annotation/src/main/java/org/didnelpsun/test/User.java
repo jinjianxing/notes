@@ -9,16 +9,17 @@ import javax.annotation.Resource;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-//@Component
+@Component
+@Named("User")
 public class User {
     private static final String username = "Didnelpsun";
 //    @Autowired
     private Say say;
 //    @Autowired
-//    @Qualifier("HelloWorldBean1")
+//    @Qualifier("HelloWorld")
 //    @Resource(name = "HelloWorldBean1")
     @Inject
-    @Named("HelloWorldBean1")
+//    @Named("HelloWorldBean1")
     public void setHelloWorld(HelloWorld sayword){
         say = sayword;
     }

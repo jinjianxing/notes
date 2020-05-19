@@ -4,8 +4,10 @@ package org.didnelpsun.test;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-//@Component
-//@Qualifier("HelloWorld")
+import javax.inject.Named;
+
+@Component
+@Named("HelloWorld")
 public class HelloWorld implements Say {
     private String words;
     //重写构造方法
