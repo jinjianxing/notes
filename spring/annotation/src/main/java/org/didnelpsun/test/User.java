@@ -15,12 +15,12 @@ public class User {
     private static final String username = "Didnelpsun";
 //    @Autowired
     private Say say;
-//    @Autowired
+    @Autowired
 //    @Qualifier("HelloWorld")
 //    @Resource(name = "HelloWorldBean1")
-    @Inject
+//    @Inject
 //    @Named("HelloWorldBean1")
-    public void setHelloWorld(HelloWorld sayword){
+    public void setHelloWorld(@Qualifier("HelloWorld") HelloWorld sayword){
         say = sayword;
     }
     public void Say(){
